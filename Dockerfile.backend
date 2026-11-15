@@ -1,0 +1,5 @@
+FROM eclipse-temurin:17-jre
+WORKDIR /app
+COPY runtime/mouse-mes-1.0.0.jar app.jar
+COPY runtime/application-team.yml application-team.yml
+ENTRYPOINT ["java","-jar","app.jar","--spring.profiles.active=team","--spring.config.additional-location=file:/app/application-team.yml"]

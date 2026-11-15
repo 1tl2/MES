@@ -1,0 +1,54 @@
+MouseMES 团队系统测试分享包（2026-11-14）
+
+一、版本
+本包来自当前运行的独立回归版：包含生产领料工单关联及超额校验、日志组合筛选修复，前端工单选择和日志页面。原主项目未覆盖。
+这些页面尚未完成完整手工回归，正是本次团队系统测试需要继续验证的对象；不能把“能启动”当作“系统测试全部通过”。
+
+二、文件
+backend：Java 后端全部源代码、Mapper、配置、SQL及测试，入口 pom.xml。
+frontend：Vue 前端源代码及 package-lock.json。
+database/01_init.sql：干净的表结构和原项目示例数据；不含本机测试过程数据库快照。
+runtime：已构建后端 JAR、前端页面、无额外依赖的本地页面服务。
+不包含 node_modules、IDE缓存、运行日志、本机API密钥、TestLink数据库或实验报告；首次源码构建需要联网下载依赖。
+
+三、方法A：Docker运行（电脑已安装并启动 Docker Desktop）
+1. 将整个文件夹解压到本地。打开该文件夹的终端，执行：
+   docker compose up -d --build
+2. 首次需联网拉取镜像，约等待1至3分钟，打开 http://127.0.0.1:18084
+3. 查看状态：docker compose ps；查看后端日志：docker compose logs backend
+4. 停止：docker compose down（保留测试数据库）。
+数据库仅首次创建空数据卷时导入，之后重启保留组员测试数据。
+容器运行配置已准备；本机未执行Docker路线，若镜像下载失败请使用方法B。
+
+四、方法B：Windows本机运行（不用Docker）
+1. 安装 JDK 17、Node.js 22、MySQL 8.x、Redis 6或7，启动MySQL和Redis。
+   java -version 必须显示17；node -v 建议22。Redis必须可连接，不可省略。
+2. 用数据库工具连接本机MySQL，执行 database/01_init.sql。它创建 mouse_mes_team 数据库。
+   仅首次在空库导入；已存在同名表会报错，请不要在已有业务库上执行。
+3. 复制 本机配置.example.ps1 为 本机配置.ps1，将数据库端口、用户名、密码等改为本机实际值。
+   默认数据库 root/123456，端口3306；Redis端口6379、无密码。
+4. 在文件夹终端执行：
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\启动项目.ps1
+   首次后端启动约20秒；打开 http://127.0.0.1:18084
+5. 停止时执行：
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\停止项目.ps1
+端口：前端18084、后端18082。启动失败查看 logs 下的后台日志。
+此方式使用已有JAR和前端页面，不需要安装Maven或执行npm install。
+
+五、登录账号（项目原始示例账号，密码均为123456）
+管理员/CEO：109001
+设备管理员：108001
+其他角色账号见 database/01_init.sql 中 t_user 的示例数据。
+
+六、修改源码后重新构建
+后端需Maven 3.9及JDK17，在 backend 目录执行 mvn -DskipTests package。
+将 backend/target/mouse-mes-1.0.0.jar 复制覆盖 runtime 下同名JAR。
+前端需Node.js22，在 frontend 目录执行 npm ci，再执行 npm run build。
+将 frontend/dist 的全部内容复制到 runtime/web（先清空该生成目录中的旧页面）。
+重启后运行新版本；Docker方式需再次 docker compose up -d --build。
+开发模式：先启动后端，在 frontend 执行 npm run dev -- --port 18084，代理仍指向18082；不要同时占用18084。
+
+七、组内协作
+每位组员在各自电脑独立启动，localhost/127.0.0.1 指向各自电脑，数据不会自动共享。
+建议统一使用本包版本，以“模块、角色、步骤、预期、实际、截图、复现数据”记录缺陷。
+请保持 database/01_init.sql 原样便于其他成员复现，测试业务数据在运行后自行新增。

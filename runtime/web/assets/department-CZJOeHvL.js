@@ -1,0 +1,1 @@
+import{r as t}from"./index-C4yx4Ab_.js";const a={list:()=>t.get("/departments"),get:e=>t.get(`/departments/${e}`),byParent:e=>t.get(`/departments/parent/${e}`),create:e=>t.post("/departments",e),update:(e,r)=>t.put(`/departments/${e}`,r),remove:e=>t.delete(`/departments/${e}`)};export{a as d};

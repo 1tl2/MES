@@ -1,0 +1,1 @@
+import{r as e}from"./index-C4yx4Ab_.js";const s={list:()=>e.get("/attendances"),get:t=>e.get(`/attendances/${t}`),byUser:t=>e.get(`/attendances/user/${t}`),byDate:t=>e.get(`/attendances/date/${t}`),create:t=>e.post("/attendances",t),update:(t,a)=>e.put(`/attendances/${t}`,a)};export{s as a};

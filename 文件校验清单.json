@@ -1,0 +1,2582 @@
+[
+  {
+    "file": ".dockerignore",
+    "bytes": 50,
+    "sha256": "acc6f5630ac9fcb81d43bbc58bf0bed16ffb8a7840c48467fd5057eb5dac58dc"
+  },
+  {
+    "file": ".gitignore",
+    "bytes": 55,
+    "sha256": "c6ffd9c2533ce1c02c99656e5225b909207d5ebfc5532bc511d20d0d281bf6ce"
+  },
+  {
+    "file": "backend/pom.xml",
+    "bytes": 8127,
+    "sha256": "4c22783fc1e0f86dd0ce383348a0babd6112e7804bd9912591fa288cf719d2cf"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/config/CorsConfig.java",
+    "bytes": 870,
+    "sha256": "2246a0b9e90bf576b28f3b3ee737b93ef073184e076a4d145102dd408a22604a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/config/DatabaseMigrationConfig.java",
+    "bytes": 2464,
+    "sha256": "a7d72518b9159a363ab86df6d77ca6e905dbd151afc994b6fa3162df67c230e8"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/config/FileUploadConfig.java",
+    "bytes": 670,
+    "sha256": "123b7840f0080247aac96cde67e07f839959a2c9174912ea727c94357059f63e"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/config/JacksonDateConfig.java",
+    "bytes": 2187,
+    "sha256": "8a5e0ffb9a4d8db2a244d9890ef3ba0ba59febd2f222e23d39b65a531a3f94bd"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/config/RedisConfig.java",
+    "bytes": 1243,
+    "sha256": "a40f894a0c8a288361c0be90df93b463b730bfe0e7899642091035775450947b"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/config/TokenInterceptor.java",
+    "bytes": 3579,
+    "sha256": "1613999854d3283fe826cba55b81be26f7ed8e587e3945fadd93c9b937b18ce8"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/config/WebConfig.java",
+    "bytes": 1047,
+    "sha256": "debbff95d72e91c51d03ecd9279b007bbdb8dc282e3549c0372816bce6cac122"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/constant/EquipmentStatus.java",
+    "bytes": 1065,
+    "sha256": "a6cbfa5dc2471ef8ca7447d2a588e5077046bfa3757610b5878500d4a13ee995"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/constant/MaintenanceStatus.java",
+    "bytes": 1124,
+    "sha256": "0d2d0bcb276097290c0325d7528f91bace6b490d77a091d121bbdebe7b040c9a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/constant/PurchaseOrderStatus.java",
+    "bytes": 1670,
+    "sha256": "50f155595f3246871ebe32d6e9d18c5627130efa8848872817899fae311c0752"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/constant/QcInspectionResult.java",
+    "bytes": 1598,
+    "sha256": "ae5b1abac619259dcd0cff01b9f85afebcea363a7b2a0f645533bb45b12ff89b"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/constant/QcInspectionType.java",
+    "bytes": 864,
+    "sha256": "63177bd5a78c866817ffed6654b02105fee92bc1ce67068d40dcfff24d8eabec"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/AttendanceController.java",
+    "bytes": 1485,
+    "sha256": "974a30482bfdd02ea84d3c429e4b3ebbdcba193054cc125097e034827c6c8d2a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/AuthController.java",
+    "bytes": 7708,
+    "sha256": "50f8161e9c0db3ebf7f6fda9b809a735a1f7c31009de6a1f8194b1c30e130381"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/BomController.java",
+    "bytes": 1206,
+    "sha256": "f1876621576b693ad7a7c78b0309e779a3bcb5ec28a283b35791c36642f901f6"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/CustomerController.java",
+    "bytes": 2940,
+    "sha256": "b3574e0e3113f7a3a18a41b317126b4bcd66bc1e00b4a2d1163db3b71ef4abb8"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/DepartmentController.java",
+    "bytes": 1412,
+    "sha256": "8e478d1ce575d5a5a4964db736250482fb05b60bb0772ae7873eef26fd6e2ce0"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/DictController.java",
+    "bytes": 1440,
+    "sha256": "7e3958d6259476e73fee118c16e7b83dc69be0bfb73b4c136a38a844ce4fb670"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/EquipmentController.java",
+    "bytes": 3481,
+    "sha256": "c24b1becd74ff35e0cefb0143293e71971b7f7f61207cc32dd31196a3c392565"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/FinanceController.java",
+    "bytes": 3697,
+    "sha256": "7fdfc2a6459e9283cb5d36c6f8c36a4141b412e872344877b15b4b64caeff636"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/InventoryController.java",
+    "bytes": 4567,
+    "sha256": "d45f86a0843b5eb8ff0f7169a54e4eb3591c077ea757da1b496da93672a70188"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/InventoryInController.java",
+    "bytes": 1276,
+    "sha256": "4d27c2f35a502b4301ca9bbe3d80b5b4bce0839d17858f68dc3d3d3c5b19d144"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/InventoryOutController.java",
+    "bytes": 1310,
+    "sha256": "5c118eae97d7f5ea9215b2645b301043221fa17d0b8a4619aef14d190c00ac9b"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/LocationController.java",
+    "bytes": 3001,
+    "sha256": "3b2e9d1b1472933564164caefecb539743f21e149fc387b41350725958e0fab2"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/LoginLogController.java",
+    "bytes": 1992,
+    "sha256": "5f0087b3c9864923eb99a9f125b9a29a5c57217123099211e0ed337f6844be19"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/LotController.java",
+    "bytes": 1364,
+    "sha256": "20c022db86b5604efb401177f925fd2b00d8a1e3625a37281d3d780a0eee87f0"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/MaintenanceController.java",
+    "bytes": 7408,
+    "sha256": "b49e53c9c80e95df34c084ad20fab05fb28e914650ff2a6a77bfd41c6762c5f7"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/MaterialController.java",
+    "bytes": 3023,
+    "sha256": "a646ec271d6492ff0200426ad194f02606af9bec8ea38d396e789146aa97e0a1"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/MaterialIssueController.java",
+    "bytes": 1726,
+    "sha256": "216006bf962c696fe9deeb7d28ccc9da777284e9763b9e597cc29bb7b806cc66"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/MaterialRequestController.java",
+    "bytes": 3426,
+    "sha256": "cef89d82845384fbc2c609740f06a7ed6621f4eae7cf574cd8b13a963d658eb2"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/OperationLogController.java",
+    "bytes": 2345,
+    "sha256": "2c733e9b85d12022164fcfd692c749c4ad31543a734942970a9d7abae9d1024e"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/OrderController.java",
+    "bytes": 3832,
+    "sha256": "33997e1b348b84c0d942c0f6607db0a8443861c8c6af4cbe9ed95d6032f81de3"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/ProductController.java",
+    "bytes": 1335,
+    "sha256": "2bd45362d8cf364047ecce6320e858b59daca22ef70e74cb9273d129d7962b93"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/ProductionDashboardController.java",
+    "bytes": 28891,
+    "sha256": "88f02f8f33ca5be8bc8c058b5e2236aba95c5cc1a4c2bc0145c6d3292b286793"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/ProductionOrderController.java",
+    "bytes": 2713,
+    "sha256": "89a333371f4a504f34e26309c181609f5449dcb3a72486f540ba40d2c037df05"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/ProductionPlanController.java",
+    "bytes": 3994,
+    "sha256": "1a3333c136da0bd0c0db21200e5faa2bf29c617ad76d5d6762c094f131d2f948"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/ProductionReportController.java",
+    "bytes": 3097,
+    "sha256": "23b4f6d15c1f84ff3fd0500fe0e5e8b554fe0e362a18a43d021a1787011f712b"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/ProductionTaskController.java",
+    "bytes": 4969,
+    "sha256": "4cd73fb53f8eaba883451b01d3a39681159dc0aacfcc3f1b19e059a6f1082fea"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/PurchaseOrderController.java",
+    "bytes": 7048,
+    "sha256": "b2889ac1071ef46f945358d7a62eaef6b368519d68a9cbb3bb4ba5b58c7e8d03"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/QcInspectionController.java",
+    "bytes": 4003,
+    "sha256": "8735a4888d3c0e28b6a7cad695937b398ebfa24de279fb0c590f9854baf256d1"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/QualityCheckController.java",
+    "bytes": 1524,
+    "sha256": "754cabdc8166906a2bd2338225fe23338662b3dd4af4de0b6d0a7e5d85440494"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/QualityStandardController.java",
+    "bytes": 1567,
+    "sha256": "29f8e4a208931d317d346a957441bdf1c148500a89b30da63a647c0b7cd3d0f2"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/RoleController.java",
+    "bytes": 1236,
+    "sha256": "7e2f5de1d0865c1a52c4d8171c39e50917259affc1fa3fd3275071a44d4b16b9"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/SalesOrderController.java",
+    "bytes": 3823,
+    "sha256": "d1a710795a4eed9f6be8d8697f3fe75dab3fc3882bf3f87f5d50db77d88a1004"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/StockInController.java",
+    "bytes": 3203,
+    "sha256": "7da1eb0d512317dd3ce9b9351121d32b4182ab626654961aeb38a16e424c1148"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/StockOutController.java",
+    "bytes": 3294,
+    "sha256": "ca5ba0bd02b5bf355d50868763755a664eead7b2f62dacdcee8cc19a62849159"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/SupplierController.java",
+    "bytes": 5191,
+    "sha256": "82d1e893de97fe6aaab76f73a42a4b0a010b0fa70e7931d2ae3b252c2133abdd"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/UomController.java",
+    "bytes": 2679,
+    "sha256": "d249a9d9bc09841905f15a1994bfd36ac4998a8503419b29ceacee5e2bbcd565"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/UserController.java",
+    "bytes": 5786,
+    "sha256": "4d0836fddc1fd5ded3ccb20d95dffc3fe64e00927f2150ec0ec9b5d84e815026"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/WarehouseController.java",
+    "bytes": 3494,
+    "sha256": "080196d9f25bd7f3e55e7447b955f2f1d1f52a0c7b768ec25052ffb1b08f6c4e"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/controller/WorkOrderController.java",
+    "bytes": 5358,
+    "sha256": "b1af96010679cf9b0ab1fe60f740658e814a84a8d0ec9694c47cae1bfe5e297d"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/dto/AcceptSalesOrderRequest.java",
+    "bytes": 165,
+    "sha256": "70bd76856979e86aec82b9f536dc9fcc182067f847b77b5542838e756447f72e"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/dto/FinanceGroupStat.java",
+    "bytes": 185,
+    "sha256": "d877c6bc768665ee0983a9c5922bb9bf67298e8a97ca452574e0423f0bfc327a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/dto/FinanceInventoryValueStat.java",
+    "bytes": 213,
+    "sha256": "d1f8ab9322c23f4be4b1e0b3985916df401f00a8be1c678349887b598532f94f"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/dto/FinanceOverview.java",
+    "bytes": 275,
+    "sha256": "451f9eff921b36d8b8ce6ff2482ffc1e6d0ed7cc15d583588697f0826e10896e"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/dto/FinanceQualityLossStat.java",
+    "bytes": 212,
+    "sha256": "086b27d9873aafe197c01554e1def7071f30e51022013b91340edb689749aee8"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/dto/FinanceTrendStat.java",
+    "bytes": 250,
+    "sha256": "57468b36293da89d827dab0bedf9640e419758e487be262d2dcf280dc7d2124f"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/dto/LoginRequest.java",
+    "bytes": 180,
+    "sha256": "ec2fc3bd079af67e0231aa25b754346f5f13956a91593a0dd23d198bbe5939d3"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/dto/LoginResponse.java",
+    "bytes": 510,
+    "sha256": "922905034a05b764b90bbf7f6838597fc825e80353ba64003c15b768537603f5"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/dto/ProductionTaskActionRequest.java",
+    "bytes": 372,
+    "sha256": "35f95f7328d1b369d6a9a052cc7ce919abe7cc0ade2dd1995ad193a4a9a78fce"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/dto/ProductionTaskReportRequest.java",
+    "bytes": 512,
+    "sha256": "10fe9443c5dde751183860630c94f1e2d4318b32090bd96f780ea4cdd25ee0b5"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/dto/PurchaseOrderRequest.java",
+    "bytes": 1190,
+    "sha256": "d1f996abda795371e1cf680d222780f2797de7bd7f734d6ee095a20bab543ed8"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/dto/PurchaseReceiveRequest.java",
+    "bytes": 1302,
+    "sha256": "3d82525704aba4ad5ce4530168096c1f0af6037e1e857ca36d998bb13b8b134b"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Attendance.java",
+    "bytes": 444,
+    "sha256": "e488548396201988aa3383ed399ce5ff4bf4d5cec0b6a10871efb4539e27e21c"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Bom.java",
+    "bytes": 319,
+    "sha256": "4dc2590816421fe936285a236cdaf77a5b44776eec82cafa3280420f4f77ea31"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/BomItem.java",
+    "bytes": 261,
+    "sha256": "2183eaafbc3849c1f7f4abdd148d5d161a738a91644d6eea22aed6f4709a9661"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Customer.java",
+    "bytes": 443,
+    "sha256": "f1d936867f576b616f9eaae130c144c3bdffc53eb41b914738df002c613d7e6d"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Department.java",
+    "bytes": 443,
+    "sha256": "70acc91f0bfa5b167e8ef73e055b9f899d21f1963e9b82510ddd86d2705ea7f0"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Dict.java",
+    "bytes": 310,
+    "sha256": "48fd0ac02846bb0dbcad3326ed831192deedd5d2db5b89d8653dad1b54c62c95"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/DictItem.java",
+    "bytes": 373,
+    "sha256": "1cd4f4a4592e655bb3ac536b6cdd7ca37f7c6cc17d9f171e736eff84834c2bd2"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Equipment.java",
+    "bytes": 1853,
+    "sha256": "803663407ad8e3fcea5ee19323eac326816e7db7fb32c9b1c8b29db960c41560"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Inventory.java",
+    "bytes": 386,
+    "sha256": "006cc3794ef77029f83c0562405048b231faecc2e1a1474bc7447acecd556918"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/InventoryIn.java",
+    "bytes": 565,
+    "sha256": "09d291cf0dc31d41b5d18ac5d6e8afaca27fa096d987284d4ddf68174cf9c49f"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/InventoryOut.java",
+    "bytes": 539,
+    "sha256": "6dc9b4704d6bb861dc20a0c4311acab3fa34dae1702eac0dcc174258b87d3376"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/InventoryTransaction.java",
+    "bytes": 668,
+    "sha256": "4b183caae42ec012a12c8542a444e5c3e53f854c57342aa94bde682c1872c619"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Location.java",
+    "bytes": 390,
+    "sha256": "9e116491bf0168c185ba580526158b5ea86ad100fa3386b03bd637b9e7ffaa20"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/LoginLog.java",
+    "bytes": 455,
+    "sha256": "71f277124f335f070d5abe9fcc16c0771b612fcd5b4f12651038030edbb85f55"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Lot.java",
+    "bytes": 345,
+    "sha256": "eed0ee4d20a3851ce7831b39a4fecd7b7c5ad487c6b1219d859a58175eea6936"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Maintenance.java",
+    "bytes": 1624,
+    "sha256": "6ba63391d044546d058844b4d7c848cf509b16ef10442f257d6d4f47cab4fa70"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Material.java",
+    "bytes": 487,
+    "sha256": "2640362dd49a46894d199e34328b6251aee1a5140f1afd079b0b92e20defaa5d"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/MaterialIssue.java",
+    "bytes": 479,
+    "sha256": "83cfec53fb8cb13e049cae0bafe6bfeda1f41d7623b39613713401b2c267ad31"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/MaterialIssueItem.java",
+    "bytes": 375,
+    "sha256": "90cb39265c5618890e2b583933e88bf9ccf2f0b153c095777894d923930131a7"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/MaterialRequest.java",
+    "bytes": 1650,
+    "sha256": "7ad76c98e7c08ed7d273d3abed7104a6827b2f1d00027a689a0f5aad53d8175a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/OperationLog.java",
+    "bytes": 537,
+    "sha256": "8024203b6103eefe0f5d99ad45958ff6ece0c31bec9aad1de401125b8c887323"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Order.java",
+    "bytes": 670,
+    "sha256": "b7b54e3f626d853759515f11651a1d45f1183b8880c142b9a6ad25ba56f23b05"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/OrderProduct.java",
+    "bytes": 364,
+    "sha256": "d029c2e09d039746c9b81274c4a29de6d68d55482555a87df3fbd43b76277856"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Product.java",
+    "bytes": 548,
+    "sha256": "9767d7eddf16db0e5276b551fdd47668a45de508ed199b515e82a8f8c790b713"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/ProductionOrder.java",
+    "bytes": 629,
+    "sha256": "1f411a1ff54268fb0781c9e24afa9090e88905310afad7b19a891158ad095669"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/ProductionPlan.java",
+    "bytes": 543,
+    "sha256": "c06de1d9f1de73f85fa5d1f579bc553e6ea96bf38b39628e8395a2fa0f030b82"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/ProductionReport.java",
+    "bytes": 411,
+    "sha256": "6c8a7c2dca155141606e296d20b4aa5c3d445173d0caafde1b97543f6853893f"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/ProductionReportItem.java",
+    "bytes": 355,
+    "sha256": "c1b76b4878bb4a9d215fd0372216d81f7a17c6ff3f335bdfb7369d5c5e110b23"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/ProductionTask.java",
+    "bytes": 1273,
+    "sha256": "ecd32df79cf789e4c4bca7afce064d97cd0ebcc7435f41438387f333a08a0ea1"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/PurchaseOrder.java",
+    "bytes": 1512,
+    "sha256": "99f38f0685100cdf5535ae33c7108ae9124f2a1d7ea5a8c8d0cd1906eed19782"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/PurchaseOrderItem.java",
+    "bytes": 831,
+    "sha256": "2bfd51ad18ae4e86a389aafb5cf86c8965442f02727b3d22efa87da58a899ee2"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/QcInspection.java",
+    "bytes": 2262,
+    "sha256": "65fd5df8ecd18de1e238ef926be676d8b1a466adfbba26a7841deeaea35ab770"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/QcInspectionItem.java",
+    "bytes": 1456,
+    "sha256": "41b9a97df9c607ca454bb844da8d3f38080c96ebd589494aa7f0193eae803121"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/QualityCheck.java",
+    "bytes": 661,
+    "sha256": "80d8d9135ff98d09c826ebf14061d3e16ce2a33eed389d40e3c456781d4c2a0c"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/QualityStandard.java",
+    "bytes": 440,
+    "sha256": "c4f5a94aeefc93f902a9bda8ebe5db679da6c32d6a1553e3c5f70a130fbbfab7"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Role.java",
+    "bytes": 342,
+    "sha256": "311b996e57f1a0b56ff7d755f048646d54d5772320de0409c49a0a3a7c900336"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/SalesOrder.java",
+    "bytes": 1193,
+    "sha256": "398fa1c77439ce6f9bbdaac43e53be43e7864ab599c1949875e4286a9ea99ced"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/SalesOrderItem.java",
+    "bytes": 333,
+    "sha256": "c865b6d114fb8003385991e5c122da834093b788f820bf3c6d9e8713e92c0d2d"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/StockIn.java",
+    "bytes": 1389,
+    "sha256": "094d60ecfcff22bed906e4513f337955d0cdc1a4a013e93bb3cb0ddbca8bdfea"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/StockInItem.java",
+    "bytes": 324,
+    "sha256": "f753df0382ef21987802ca290f6f5520c87ef8add776de22f64973f8b6d423d6"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/StockOut.java",
+    "bytes": 1402,
+    "sha256": "068795360779398f2da3ad56cf19ef9b4897e197f7ed22ac1ec93de67d64ef95"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/StockOutItem.java",
+    "bytes": 326,
+    "sha256": "c4c94c6651ec678f29e500b40aca044b0a13f34feec8e6bbbbfabe48f0b15e0f"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Supplier.java",
+    "bytes": 483,
+    "sha256": "328c45667857bbee3b69aff98ab8554b3a7bedc563fcaf5c5391f6268eca86d8"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Uom.java",
+    "bytes": 310,
+    "sha256": "89e000afcdc352cd2327d5b5fe87e856743505b6e03b88277a14577edfb8fbf1"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/User.java",
+    "bytes": 751,
+    "sha256": "174c0d68a2c99df57a6552086b4984330e42e305c5e96c6cc2bf01bd31ce0444"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/UserRole.java",
+    "bytes": 224,
+    "sha256": "aae982da7af9afadea40d4b164bfd0db6334a4099ff44730bb607adcdf7e433b"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/Warehouse.java",
+    "bytes": 417,
+    "sha256": "500501f3280f87bf83212c5cc7396199c8fb0b68e2abcb751c394a949e1bea11"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/entity/WorkOrder.java",
+    "bytes": 732,
+    "sha256": "d1bf2f9e474d209462763dcaa0fe88690518548b7408ac0587b32d9065f69307"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/AttendanceServiceImpl.java",
+    "bytes": 1393,
+    "sha256": "6af3903c547e56fb336fb6e2fcb29c2f2adf6541455a61cc52bcca1f146930b6"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/BomServiceImpl.java",
+    "bytes": 1072,
+    "sha256": "da586ea1cc056951a609128ae38bf7f2cb492ed75b5a61a78f9dfbbb7f9409f4"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/CustomerServiceImpl.java",
+    "bytes": 1398,
+    "sha256": "ea164262b255ac1136a63a94737e66979537dc4215e7948b050f5e35b9dab276"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/DepartmentServiceImpl.java",
+    "bytes": 1711,
+    "sha256": "c70e5e87843435196273b101e0b17468516b17a4551b03e952ea44334a4c582f"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/DictServiceImpl.java",
+    "bytes": 1523,
+    "sha256": "f2a1743ec9f0b772079e324618c185f599ea604a374957755e9e5d41c8012283"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/EquipmentServiceImpl.java",
+    "bytes": 5499,
+    "sha256": "1156467366f551b9f45c2f2a9f9a99d3371ee063d3d9af2f365e849838c92d4a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/FinanceServiceImpl.java",
+    "bytes": 7198,
+    "sha256": "f4f9728ef6a3b88fcec47e5ce81e6ea817d55e753da1974d28bbda2b394d09b5"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/InventoryInServiceImpl.java",
+    "bytes": 1238,
+    "sha256": "8fd25e7772e39411c754f63d29e4977ba08583d4cdd39e19b0d5e8fe64f223b2"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/InventoryOutServiceImpl.java",
+    "bytes": 1269,
+    "sha256": "032f9762d863597cec5d59216c4c843ad4f51965b401177610b4e78a9764ce59"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/InventoryServiceImpl.java",
+    "bytes": 11080,
+    "sha256": "2512733d3ab345605a3394dcd5dbdb9d212d65f1d0b75857107bfe9188d04e9e"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/LocationServiceImpl.java",
+    "bytes": 4247,
+    "sha256": "a2894a5d8523a0889b2ebcc5a8dc2fbb88074f4c5f0fa60da93e6b7ec976290b"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/LoginLogServiceImpl.java",
+    "bytes": 1106,
+    "sha256": "45d7617b241a6b49a8d762ab8f06afbb41818ea72cbc008bbe660e3bcaad471f"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/LotServiceImpl.java",
+    "bytes": 1520,
+    "sha256": "d9dbad12f55fe4b98e580fca2d5288c36af01ac6fa82028c2dee69e6c2c7c2ba"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/MaintenanceServiceImpl.java",
+    "bytes": 12378,
+    "sha256": "8ffd4dc186f78f0b36fc03b11724849ab73c8f7098dbda2c7cda408be43da38b"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/MaterialIssueServiceImpl.java",
+    "bytes": 1882,
+    "sha256": "ba18ce56a514e2ce59b5ec99e7e629d6fddf6c6d588db192d1d23bc1e7220b3a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/MaterialRequestServiceImpl.java",
+    "bytes": 7765,
+    "sha256": "b38ca697ca69ab4f7df36ce883e6d865e4031b210e8d843459784ec4de258c2b"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/MaterialServiceImpl.java",
+    "bytes": 1840,
+    "sha256": "54945f6beee0a4e763e18b6594bc5db9a6a6e6213f575f417bcdcde4d165f7b4"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/OperationLogServiceImpl.java",
+    "bytes": 1364,
+    "sha256": "cc1a9377c627479694e1ba93524c6e5f2462204d1ed4532f62e718293d1e3d61"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/OrderServiceImpl.java",
+    "bytes": 5550,
+    "sha256": "43ef68ed5d9d8b70ec42667833eeb6a2da02f18278b3fd08cc4c48ca8f7b6ff7"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/ProductionOrderServiceImpl.java",
+    "bytes": 3568,
+    "sha256": "57396bee894f03e5211cf3acaa05cbea807cae1dcf3c320dab4a31baa7947a7a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/ProductionPlanServiceImpl.java",
+    "bytes": 8840,
+    "sha256": "c91f86667757913842fcfbf8ab82150a3186668c75a86ac4b83ac5eae6b57b11"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/ProductionReportServiceImpl.java",
+    "bytes": 10314,
+    "sha256": "421d3c0954b9a0df092957e16dcecfb8c2e41f81c7abf7031875505cbda64f39"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/ProductionTaskServiceImpl.java",
+    "bytes": 14243,
+    "sha256": "203aaddd23d2891418a67fb0105905cfde910002a5c1419ea603422d8f59deba"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/ProductServiceImpl.java",
+    "bytes": 1430,
+    "sha256": "161db3e489f64bd4d7931b2c3aa9785f53043417027b25c382950a0f38f693e7"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/PurchaseOrderServiceImpl.java",
+    "bytes": 28815,
+    "sha256": "7c2bd8bfe1395597622f7ce16634faf4b1536b89eca1d0227ceed12839155b1b"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/QcInspectionItemServiceImpl.java",
+    "bytes": 6044,
+    "sha256": "f229f9b156b6b6f340e269dcba3163124e89e57a5d8223fae03dea68e64e9341"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/QcInspectionServiceImpl.java",
+    "bytes": 14683,
+    "sha256": "af345dc114145fd7609b94632dc5a5771a371901b6a706f725e2c03efdd5d56f"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/QualityCheckServiceImpl.java",
+    "bytes": 1538,
+    "sha256": "6602d8d56b0d88b7df0cac33bd9f171f1bac664a9f0da1108ee18f1d65c6616c"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/QualityStandardServiceImpl.java",
+    "bytes": 1682,
+    "sha256": "93849e67e37a2691266ea3a59e8199e8efccb337d21ef74b3a8640350d197729"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/RedisServiceImpl.java",
+    "bytes": 1217,
+    "sha256": "9297e80fca3fd357dd406fa7d307abd461bd724b3843dd3a43dd75b9752ba351"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/RoleServiceImpl.java",
+    "bytes": 1652,
+    "sha256": "8830d56f86fe53a62f72a58c20d4d8a99e1374064137594d86720d4fe8cdf349"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/SalesOrderServiceImpl.java",
+    "bytes": 4477,
+    "sha256": "698cf4dd92aebd1202d9935e41be87e9bb3821dd95881a60d3b4d518ee27df60"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/StockInServiceImpl.java",
+    "bytes": 7926,
+    "sha256": "367a64643aeec0ef598bb2f529113cfa8783d347edc25b4a71bc5893452b274d"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/StockOutServiceImpl.java",
+    "bytes": 10950,
+    "sha256": "495508d71a64384893f9580588b2f5f4c27c48e9e0e11ddf4d3aacab701a26eb"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/SupplierServiceImpl.java",
+    "bytes": 6670,
+    "sha256": "da23ec5df08cb517371eac36cd1332441fcb683ac580d0e34c0be15468caa613"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/UserServiceImpl.java",
+    "bytes": 2499,
+    "sha256": "0b67f553f800036f9694f9a8a8490c229737d3db47904543b47641795211273f"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/WarehouseServiceImpl.java",
+    "bytes": 1502,
+    "sha256": "1a425750d16288373cebe13a37cb46d4dda162ef18e6c150bf240b3b33d7c648"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/impl/WorkOrderServiceImpl.java",
+    "bytes": 7024,
+    "sha256": "55cbad9516d6e9e0bc41715604d0388e37d136d092cc389ea968a62c97645e70"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/AttendanceMapper.java",
+    "bytes": 559,
+    "sha256": "2c07997fe8472b64a8c6f851f5cfad9c3ebdf77b3057db355f3db094c35381e0"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/BomItemMapper.java",
+    "bytes": 382,
+    "sha256": "7c4212adfa258e1bcebc15d457d99f7b3fbbf74e08ed7494c53611aa6e5919b4"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/BomMapper.java",
+    "bytes": 452,
+    "sha256": "ab5722450afb89fed8fb5a9b38836d68bdbb9ec9290ee8ca8c91ccf5e136cce4"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/CustomerMapper.java",
+    "bytes": 504,
+    "sha256": "cae49a0cd7d7e519e40335949035389422014e8d14849bf99afea2efdb1d7690"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/DepartmentMapper.java",
+    "bytes": 512,
+    "sha256": "a7b9b8fec6a2bee36785fd1bc6d54674180207e7e9e44a960e36553d692bd16a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/DictItemMapper.java",
+    "bytes": 496,
+    "sha256": "1a9fedf9d22c57806fecd029bfb525592f76e533054bf39cf2b81c9f27941da9"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/DictMapper.java",
+    "bytes": 454,
+    "sha256": "1df29fb50b5251791de0c6ce4b1b0feaf64dde8d3a08bff41135bb6e6a073163"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/EquipmentMapper.java",
+    "bytes": 825,
+    "sha256": "9b5335adf26979fde16d2b5a52711a0473da35d40e282c3dc2dc395f4bfda7b8"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/FinanceMapper.java",
+    "bytes": 2174,
+    "sha256": "ba98033ff09c3a208933fa74d8863bc393b7491d32fa8525527d340fc0d57b7d"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/InventoryInMapper.java",
+    "bytes": 466,
+    "sha256": "b016650737d153bee568aa8ee3b2c94a5612938a48313e0b6e1b95d9ad2fb130"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/InventoryMapper.java",
+    "bytes": 1934,
+    "sha256": "7fae1925d675759c7b1d28c9308c3b6b5565abef23314d5276bb04553469dc8a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/InventoryOutMapper.java",
+    "bytes": 478,
+    "sha256": "ec9480406027e3d149de7fe665feaeb82875ee730d705581e18b91a635363466"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/InventoryTransactionMapper.java",
+    "bytes": 898,
+    "sha256": "4dd06d2957f243dc90e74eac0b01b491c4794af51589cd88b06b1a2025090e5e"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/LocationMapper.java",
+    "bytes": 505,
+    "sha256": "eca5495114c0b6ca89e585c8352bd0334ce73840df741b771a6ca2de34881c9a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/LoginLogMapper.java",
+    "bytes": 413,
+    "sha256": "40da118ba52864484920e23cd8928f871f0a62a2c0fc844da0e1ad71ca0bfe3f"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/LotMapper.java",
+    "bytes": 457,
+    "sha256": "2eb596722c3b0184f2c0bbe57bffc84e368283f224b69a6551b336ed7a3079ef"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/MaintenanceMapper.java",
+    "bytes": 1137,
+    "sha256": "403d22838281873764f2671cf228bf3ec8382f7ddd177a35efaf49794a4d395d"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/MaterialIssueItemMapper.java",
+    "bytes": 444,
+    "sha256": "cc1bf435c5f6ba2a6e20f0749c21a7169215b10d2be18fe6c5ea0ef9a1437fe5"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/MaterialIssueMapper.java",
+    "bytes": 534,
+    "sha256": "f75f6470c008291f5ed7514e26ee845ad4f1a0050e0134b24f54037b9c79be78"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/MaterialMapper.java",
+    "bytes": 652,
+    "sha256": "2eb5059c5942567b35eac83279925dd2c1c1a53a08bd9f3f8cd4d4d5ea3118c7"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/MaterialRequestMapper.java",
+    "bytes": 655,
+    "sha256": "95e1d4394ca6ac1514e7d25a09ccce0d60b6dd5cdd6c4ed0e81778e80ac60acd"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/OperationLogMapper.java",
+    "bytes": 441,
+    "sha256": "b6a1b10d270e804859907879c76d1ec4a5b2a80a708854312e71c29da335bf5d"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/OrderMapper.java",
+    "bytes": 664,
+    "sha256": "3d3875e7e0022d981b26eb9f64aab8ac6b07082e67cb85bd0e62807a97708f57"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/OrderProductMapper.java",
+    "bytes": 585,
+    "sha256": "6c6750a9d87936dea95ef49fa08dc88a7e2fdc09a14eb4e97dbfc279fef89049"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/ProductionOrderMapper.java",
+    "bytes": 543,
+    "sha256": "1d50d7abddc6d6c69efc66fd9b384b9e864e59000aa6da9c52362fc56cea7907"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/ProductionPlanMapper.java",
+    "bytes": 684,
+    "sha256": "944ae89513d0090ad9fb6cc5f89b72e379fe249b5f6a3dcc5084512b6c31cea0"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/ProductionReportItemMapper.java",
+    "bytes": 465,
+    "sha256": "b77e7df172034c0b8766598af32cfb19a04ec5ca79a5a980cfa807079d5b2a2a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/ProductionReportMapper.java",
+    "bytes": 679,
+    "sha256": "b547a0b23f3efeb45a8e9846eb0c39fa1fe85d05b365b5be766959bb6dd4542b"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/ProductionTaskMapper.java",
+    "bytes": 1162,
+    "sha256": "7697794a648d8adc45a29debfc2e13a33961478ac640e8d2ba200f3080eccf8d"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/ProductMapper.java",
+    "bytes": 490,
+    "sha256": "0b256c6d28ec4783ef9bd1fd69fda31bd45139ad96aa7eb1418877fb6da956ed"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/PurchaseOrderItemMapper.java",
+    "bytes": 998,
+    "sha256": "973a8adb75647a9692f1eba03483fc0f36afec412aa8995ca043659a6648e5ab"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/PurchaseOrderMapper.java",
+    "bytes": 1209,
+    "sha256": "cc9aceacd6f67aa094e338dd2bed3cbfd16b9b34924270c041c05a80af990603"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/QcInspectionItemMapper.java",
+    "bytes": 967,
+    "sha256": "21064d449f423c5b9914bcc6b6f64987522efed24f9151623c0999079c45222e"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/QcInspectionMapper.java",
+    "bytes": 1158,
+    "sha256": "8ed564d56ea5a12b8ac1bef6b6b85df8573097196e4f0f4805b491c9619445de"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/QualityCheckMapper.java",
+    "bytes": 629,
+    "sha256": "104cdcb359c8243096b7efe17719cf199d3e88cb9d46fa101a058cba1d6fe95a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/QualityStandardMapper.java",
+    "bytes": 560,
+    "sha256": "7bf7d00e8b437e388c7bf55da922cb02a8aad5dc415e32636b0877aacfe3524f"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/RoleMapper.java",
+    "bytes": 460,
+    "sha256": "5b807a6873911910583db863a0cb9769198535630f9d172d1d643e9f5b9777b5"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/SalesOrderItemMapper.java",
+    "bytes": 411,
+    "sha256": "59fa3bb74adbf7ffcf32ecfa432c164c6af26d6024b30f3dd00f150f8abd800a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/SalesOrderMapper.java",
+    "bytes": 498,
+    "sha256": "402894ed2b2127643e1fcbe0943a7a421671e8e43fd5beea8672971ee6988103"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/StockInItemMapper.java",
+    "bytes": 426,
+    "sha256": "227298ffd012e6379e7205ce4ecc8aef0ecf282ad04b1f81909b26af0e143d5b"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/StockInMapper.java",
+    "bytes": 486,
+    "sha256": "0d0593049b5a711cd17e80a1510e6860b2dab7ccce489e58948b75fb72bb34b0"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/StockOutItemMapper.java",
+    "bytes": 437,
+    "sha256": "63b0e9de8ed92925db78ac44afd18c0762fe07e7a02ff7f05d639b2c2aba6d5a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/StockOutMapper.java",
+    "bytes": 863,
+    "sha256": "07b15b48ed4f003ece6f83b1cc38e4715975958c7ea99d6e1689a25a45af492a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/SupplierMapper.java",
+    "bytes": 1551,
+    "sha256": "59a1012ee9a4422dc9aa1603a6e9b137d4551894ee49a76c6424dfe38adee4f3"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/UomMapper.java",
+    "bytes": 444,
+    "sha256": "5b4a7297e2654441a1637789124eee95b1c5082ff6fb7c6f860b32b12c8ac2b7"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/UserMapper.java",
+    "bytes": 1067,
+    "sha256": "6fcb5fada6874e2c8e21cc4408febc4dca3c1cfc3b93471080d44e22d83b5e57"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/UserRoleMapper.java",
+    "bytes": 456,
+    "sha256": "1defb504624372812af3b69fc6ceb9a72b78f4810beb12e333e60d63a2d885e2"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/WarehouseMapper.java",
+    "bytes": 514,
+    "sha256": "bd435b3061c807ca7beaadc132e3548767e6ece28e194d7247b909bc981fead8"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/mapper/WorkOrderMapper.java",
+    "bytes": 910,
+    "sha256": "dcc2170eb4e8987a024b6c81a1bed003868054c1394b80125e822aba0b61f507"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/MouseMesApplication.java",
+    "bytes": 420,
+    "sha256": "bf9732661e22622f9e19f1e379e8f1746208c2bfc6e054996eb9f05966f6123f"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/AttendanceService.java",
+    "bytes": 420,
+    "sha256": "9654d737d1356ceab31e396841985ef4e27d1fd197476c2cc0770d64e86e6d7a"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/BomService.java",
+    "bytes": 309,
+    "sha256": "e63bc29779f0202f5bc71b00a41087c4c3e3d529868e40b0aad0bcbcfefe9eec"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/CustomerService.java",
+    "bytes": 358,
+    "sha256": "5580306174302f86fc110caa29444a7cfca5cb1634a96173129914e506f7f772"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/DepartmentService.java",
+    "bytes": 384,
+    "sha256": "060c70cad7a737e86580b3f67b76c55ffe1655d6064745151fddbaac605e651d"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/DictService.java",
+    "bytes": 403,
+    "sha256": "59f55adcef5d35052eb1984d9d2959b75f756094dd946749de5c9ecc286a5093"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/EquipmentService.java",
+    "bytes": 684,
+    "sha256": "b1b427cad5a1154757699cb5e99dbca403632dd57223f21cf85bc478d223eb04"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/FinanceService.java",
+    "bytes": 1518,
+    "sha256": "c9a0312d94e8ea52760ae3e8107fabdd20f053a4e49bade710434bb328eb4638"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/InventoryInService.java",
+    "bytes": 356,
+    "sha256": "080d78721cefb86327c25fd1d224fae33df51343dd03ee25a6b490c796303afa"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/InventoryOutService.java",
+    "bytes": 369,
+    "sha256": "9d8ac6ef8aacba67c109f56ccd70fffaf6ee15200eaf557c7353165176a9c40d"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/InventoryService.java",
+    "bytes": 2112,
+    "sha256": "f823af7abcd6f16495cfa3d7e3bece4f19462e98b40a243b47ab2520626b700e"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/LocationService.java",
+    "bytes": 678,
+    "sha256": "8f3580074a6dfae6935fdafae08fdf7ba0911066e4b08f998b0bc6ec09e33530"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/LoginLogService.java",
+    "bytes": 361,
+    "sha256": "539c1037780564b0767d8ed7b26aa49e0dcbdfcf5aca27f267a4d85ad23a9632"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/LotService.java",
+    "bytes": 347,
+    "sha256": "ef27fffbc4bfda866a1d0062e8d13ce3900b99e83cdac53f3e2b6fc56c62f573"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/MaintenanceService.java",
+    "bytes": 1314,
+    "sha256": "a4ffeec4c0473b59ef137878c5ce5d8a1bb67673e2fd5687d957e2d5f3bc6920"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/MaterialIssueService.java",
+    "bytes": 522,
+    "sha256": "84af95c61b26b7be20cc4eac148dea0a36af9e5d1a4ec2eedc27c390e6cbfbf6"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/MaterialRequestService.java",
+    "bytes": 614,
+    "sha256": "10e4f47b8a5c64b17d3db0c421541ba464b8d100247ca13a09599d4a7d3bb522"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/MaterialService.java",
+    "bytes": 470,
+    "sha256": "9ad5ec3a538ba367675dfed207bb36745713a7a6128a5a5a94e55f303406fe9b"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/OperationLogService.java",
+    "bytes": 450,
+    "sha256": "1ba9f787067547788131f22948c8734db7642ced2712e88d095145ebc4c452e7"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/OrderService.java",
+    "bytes": 437,
+    "sha256": "9dbc00fa1f96937ec1176e138c29b0828fa4f751ac053d3c6dc1426ed1d5bb71"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/ProductionOrderService.java",
+    "bytes": 429,
+    "sha256": "6edf9cb0157994b5f21d757681a5421ee3614c7184c72febd9961847e7a7e9d1"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/ProductionPlanService.java",
+    "bytes": 624,
+    "sha256": "7c553ad3b7733e485ba1083f63738fa9c9e2c778f743a8c5ace516c75660a770"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/ProductionReportService.java",
+    "bytes": 546,
+    "sha256": "aa34f9d8dcd6865ef8baefe280750e07ae4785cae87c830ceac02ea015e16c1d"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/ProductionTaskService.java",
+    "bytes": 987,
+    "sha256": "d681267d25a33a2e943d728876328c98c6f1cc015b7a8511740e3e36defd7202"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/ProductService.java",
+    "bytes": 353,
+    "sha256": "e144fd48b9f4a6fe085d159962b09a8e1efe2fd9c38a9a7b4de86a95d5b85f8d"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/PurchaseOrderService.java",
+    "bytes": 2140,
+    "sha256": "863358a023a914d7242b2cbc8e5a1ed33b60da53de916d7c23f31d25f215e7ac"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/QcInspectionItemService.java",
+    "bytes": 834,
+    "sha256": "455aeeca847349dcc379d6ca31582b40d6687461173e52f5505aa8d790448e78"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/QcInspectionService.java",
+    "bytes": 1020,
+    "sha256": "e245358813948e73887020d40337c25160bb4e518654e58eeea6710c09f02fbf"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/QualityCheckService.java",
+    "bytes": 432,
+    "sha256": "fb698b4670b9203d7f8686a97a1ba4ca057bd03f9d822c150eea5f9e573b1f61"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/QualityStandardService.java",
+    "bytes": 441,
+    "sha256": "867e544178aa76f877ee66ec22bb3d1f34a6f022dc1f18be300b5f558b440625"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/RedisService.java",
+    "bytes": 403,
+    "sha256": "26fa6711b978792d582148a9972d4850e4c6c44650139258bb4fb133188f55d3"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/RoleService.java",
+    "bytes": 320,
+    "sha256": "e81bf97cf98e6a88d0d8dc0d67e875039805e3c0f9cbbe8ee591faa675e62100"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/SalesOrderService.java",
+    "bytes": 439,
+    "sha256": "717af542f70de964645389a86837ec6992475ea6b89379daae014f38384cfe7e"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/StockInService.java",
+    "bytes": 776,
+    "sha256": "4865f582fcc4bfb8c400a358edcd64078743c181cb22802743b45be40c6c9731"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/StockOutService.java",
+    "bytes": 804,
+    "sha256": "5032ec5c40d665ee7324df516501862ac213a1deba8bfa47e9dd12d1bdb52b0d"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/SupplierService.java",
+    "bytes": 1216,
+    "sha256": "87be950eca4c74522a5ce387c447870a40d3be14bf3c67414bdceff4343926bc"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/UserService.java",
+    "bytes": 690,
+    "sha256": "41c585afd04400312bd9fd47bf35752c6acbab7e8a13aa6b7cd5dd9fb5a381a6"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/WarehouseService.java",
+    "bytes": 379,
+    "sha256": "a83f5e174454e63f3d99a0c501dcaa547747372beb26c82526bd4d3778bd08bc"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/service/WorkOrderService.java",
+    "bytes": 1464,
+    "sha256": "f14f600a271d383f7517ae6d4afa30916dc538f13e636087236985e388bda0fe"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/util/JsonResult.java",
+    "bytes": 1693,
+    "sha256": "7219b6fb9b9daae79631a45c4883e1c8b0846a5d3295612878c71a5f85cbc708"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/util/LogQuerySupport.java",
+    "bytes": 1316,
+    "sha256": "fa8d4c14650e1f41e1d26780dd6b25034af93beef9cf6e8ec9ce70db28f818c5"
+  },
+  {
+    "file": "backend/src/main/java/com/mouse/mes/util/MD5Util.java",
+    "bytes": 1880,
+    "sha256": "56188b0be9041b1980dde0b8b3d16cbf500aa51561282af34f8666b7472f0baa"
+  },
+  {
+    "file": "backend/src/main/resources/application-team.yml",
+    "bytes": 559,
+    "sha256": "07c36389f2bd95e2cea22e7169e31922559a833a88b0fe9b2a8f0f1f98b5a985"
+  },
+  {
+    "file": "backend/src/main/resources/application.yml",
+    "bytes": 1264,
+    "sha256": "fad2a958161f545904262e19e79ca401d0f2059484d1c4abb8fac73ab41d5bfb"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/AttendanceMapper.xml",
+    "bytes": 1768,
+    "sha256": "5387e157a4460022033daae595729518e70379036531f08b6c2df3f01fc98c1e"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/BomItemMapper.xml",
+    "bytes": 753,
+    "sha256": "402b1fe57cce8f2e92536b9077703b4ca7c534688feb1bd65798466c2b47fbf1"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/BomMapper.xml",
+    "bytes": 1350,
+    "sha256": "800e50dadad1f8b00034e22b84fe8b0da8b0a372817b916ff52f8022919520db"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/CustomerMapper.xml",
+    "bytes": 1744,
+    "sha256": "7a4004c911f4591d5242bf99504425b09c7e3165b28cbfaed6fa37383afbf66f"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/DepartmentMapper.xml",
+    "bytes": 1650,
+    "sha256": "71d61744d86b466c3f53140b607ae5c45e0906825e2688f33506ada58a058924"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/DictItemMapper.xml",
+    "bytes": 1566,
+    "sha256": "4af10ba9af9b5f7cd5706836adec22debb0802cef34b57b95c124708f525580e"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/DictMapper.xml",
+    "bytes": 1378,
+    "sha256": "6a7cb01af76f1f8b176ea73d8c3152029b52b37e943c5c41962253c6f5a93f34"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/EquipmentMapper.xml",
+    "bytes": 2231,
+    "sha256": "58a45d2d53d877cfa3ef40774dca7f90702c2d5b885c158dfd85f09c8d33ed4e"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/FinanceMapper.xml",
+    "bytes": 9129,
+    "sha256": "b7cf9f62b951f919bc4c9a21bcf5d245c59cdaf5e9f802d9553f1216d96629a2"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/InventoryInMapper.xml",
+    "bytes": 1706,
+    "sha256": "e6fa483d2795e130b223a276d31738ddd10df30705503ef2ac8be595dccf2ae9"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/InventoryMapper.xml",
+    "bytes": 3710,
+    "sha256": "f18256b2ba6843b02c4160ee7be5f0915381936e4b3759b5f2e2e70e6cac2c39"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/InventoryOutMapper.xml",
+    "bytes": 1667,
+    "sha256": "efb666076661269bc11919faaf2afd83272c6895fadb4c1b42ec8af4dd5eaa59"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/InventoryTransactionMapper.xml",
+    "bytes": 1833,
+    "sha256": "794610c8bd642f308077e1db12d8d2074953a5971b0b20bfda9ae8f4a6929334"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/LocationMapper.xml",
+    "bytes": 1706,
+    "sha256": "8328246e5aaef25dc09c141374779e0286b2761560af1ba5dd2c1c5f782b1218"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/LoginLogMapper.xml",
+    "bytes": 1094,
+    "sha256": "3088142d8f4f323e1122b1fbd0c966d26ea707c252db124c4c8d9ca90905e3de"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/LotMapper.xml",
+    "bytes": 1522,
+    "sha256": "c6f95c72885bbf9b3b2b14d7f2207123ff7ce95a6005703483e921b04db2a366"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/MaintenanceMapper.xml",
+    "bytes": 2781,
+    "sha256": "29683ec9a81ba1b0e09a1264a74e52c38f0c11dfe87ee9e4943bd07cb390c62d"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/MaterialIssueItemMapper.xml",
+    "bytes": 929,
+    "sha256": "c8df01b300030dcbc72cea3af54850ca52dc0f2ca7b8dd616f25bde6a8bc8153"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/MaterialIssueMapper.xml",
+    "bytes": 1813,
+    "sha256": "91b061f2e40221392ad7e9ad1a2df1e87cad771e6d5057e4c61e14a7b1a355b4"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/MaterialMapper.xml",
+    "bytes": 2259,
+    "sha256": "9b7c730c256fd80e0b014c8d983bf691aa584a1c29c4d426ea5d47fed49db063"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/MaterialRequestMapper.xml",
+    "bytes": 2912,
+    "sha256": "63fd5dcb8dba1827ccdcf817389c87a2683bb7962a742c03e4a827024757b744"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/OperationLogMapper.xml",
+    "bytes": 1220,
+    "sha256": "b21eafb47d7cce72744b4796278cf3807fef46072e5e8bc484d77da0e5806c23"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/OrderMapper.xml",
+    "bytes": 2581,
+    "sha256": "b5e43f21d4b118bf1dc7ef4efecd0b33031bce484af96d14363c1f29959ffbe9"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/OrderProductMapper.xml",
+    "bytes": 1656,
+    "sha256": "69f07956e3951a438423c8501ba02949a557f174f22dd72debd46898d30c51cf"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/ProductionOrderMapper.xml",
+    "bytes": 2325,
+    "sha256": "f466827cc14bfbf8232d8167f4808bef8441a5cc6b2738b48b0be7d8d22ad82d"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/ProductionPlanMapper.xml",
+    "bytes": 2493,
+    "sha256": "b42deafd85eab53fa65fbfe13b050dd62cb72313bc91bb58dc991cfa89ead27f"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/ProductionReportItemMapper.xml",
+    "bytes": 935,
+    "sha256": "b7eec586b3a12f67b97cee002c384553623e287954f606bf09ad3717cfac1010"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/ProductionReportMapper.xml",
+    "bytes": 2525,
+    "sha256": "9703ef1f163c03dae21fb0b6819045b232d0385a1c8e9d151ab6a723456002e0"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/ProductionTaskMapper.xml",
+    "bytes": 3961,
+    "sha256": "e5edf1acb905ac503a3c160691d13a3c631c0cdf5fc344a39ce60c9aa4f91e70"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/ProductMapper.xml",
+    "bytes": 1833,
+    "sha256": "73e2e005c1f2b1d21c3309087a21d9574e52cbad9c17da017f1a83ef014c5956"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/PurchaseOrderItemMapper.xml",
+    "bytes": 1278,
+    "sha256": "48d562449acd59eeef1ad8ba2cd7b2cb852147ca41cce408e0d3105bd2789afb"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/PurchaseOrderMapper.xml",
+    "bytes": 2377,
+    "sha256": "316bbdb2f08e527145c99a2fbc7b7c54d4fea12f212ad8196bacf520f96e8a4b"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/QcInspectionItemMapper.xml",
+    "bytes": 2421,
+    "sha256": "62c4ae2ae1dae31ab8ea63b4a965bebe5a7b120f5098110d87949bee356f21fc"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/QcInspectionMapper.xml",
+    "bytes": 3123,
+    "sha256": "f0a122355abc94b5a5b4c44440f46c69e11e0257962db1512f1953505145359a"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/QualityCheckMapper.xml",
+    "bytes": 2442,
+    "sha256": "9a4b2c3264073fe2d05707072b3b1e050b6d2ac8b48bd5daecf7a16eee625107"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/QualityStandardMapper.xml",
+    "bytes": 1743,
+    "sha256": "ba22473c4e8c6797d3dd72840d845ce3a22e0a2b856bb3f0398338955169099c"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/RoleMapper.xml",
+    "bytes": 1569,
+    "sha256": "e46ca700dcb6e54b657a94f0e4e221c5c48328c5d035bc36115ded6964f192a6"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/SalesOrderItemMapper.xml",
+    "bytes": 833,
+    "sha256": "463a141ca3941b35461b5ee3c6379ddb0f08ff07f768808720488e0901648641"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/SalesOrderMapper.xml",
+    "bytes": 2348,
+    "sha256": "7c203108bc7cb1028ef01fd6e3b0ac817481cf73a0da65414baf65b2b7db5fd8"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/StockInItemMapper.xml",
+    "bytes": 902,
+    "sha256": "5bf0c3bbf875ca2ade8fa88a306ab025c53413442a86d0f1308a74c5c7ed22a9"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/StockInMapper.xml",
+    "bytes": 1959,
+    "sha256": "61621126fd454ed9edaf0dc6ca11068fcc63fb02d3d519f63b6e9fa792dd192a"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/StockOutItemMapper.xml",
+    "bytes": 916,
+    "sha256": "605c2c9620fbfd3378e1998f9b99a350f8fe9ea24364fc23a9144004d7f296cb"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/StockOutMapper.xml",
+    "bytes": 1982,
+    "sha256": "dd995879ad55a31d0fa3825ea0be65e5b00b46ad48bfee76a650c6838e4f2666"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/SupplierMapper.xml",
+    "bytes": 2776,
+    "sha256": "66ad88c39b346f541e10b60b9d18107526e690a90d14ddca762a47cf98523434"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/UomMapper.xml",
+    "bytes": 1411,
+    "sha256": "d83c62d3f227e8a52f0464bb21267ca8631ff23683efc7948c09b4d0fc739c2e"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/UserMapper.xml",
+    "bytes": 4333,
+    "sha256": "1c39d99bf9b8f4c8fd47aac545e0b30def64781008739540f3cf8072dcc3da70"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/UserRoleMapper.xml",
+    "bytes": 882,
+    "sha256": "c0451fb50618faee995c1f255d82e4e25079d7afdb19403227f981740f33e8a0"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/WarehouseMapper.xml",
+    "bytes": 1724,
+    "sha256": "6a2d60ca4f8ff920c04d51caf04251ac03178fb8f7404afca9ce3433074b2191"
+  },
+  {
+    "file": "backend/src/main/resources/mapper/WorkOrderMapper.xml",
+    "bytes": 3244,
+    "sha256": "4829a3d8b0708064ca95944c4c77c7eafdf31c9cc24bd20bc32c7b2e9205ab33"
+  },
+  {
+    "file": "backend/src/main/resources/sql/equipment_module_migration.sql",
+    "bytes": 3446,
+    "sha256": "1f1e0200fed9817125b4055f506b7476e789caec5a876dd4009b9517175fee39"
+  },
+  {
+    "file": "backend/src/main/resources/sql/finance_module_migration.sql",
+    "bytes": 1414,
+    "sha256": "cb2ced2907a01532237ecb399fc6b4c011a694ac74bf72930a86fee4982ca6a7"
+  },
+  {
+    "file": "backend/src/main/resources/sql/finance_test_data.sql",
+    "bytes": 15494,
+    "sha256": "20cb197fe336790657382b1bd2a6a61aa00b47315f5089afa12076e6cedf7357"
+  },
+  {
+    "file": "backend/src/main/resources/sql/init.sql",
+    "bytes": 47864,
+    "sha256": "e17944c389763878f863ec9eaab61e001b2470ec797f57f193d6aba262cd2a22"
+  },
+  {
+    "file": "backend/src/main/resources/sql/init_new.sql",
+    "bytes": 42782,
+    "sha256": "53c09650cfcdd26614ad7676624e6461323fd9ce8d5e371d9404c78d543932ef"
+  },
+  {
+    "file": "backend/src/main/resources/sql/migrate.sql",
+    "bytes": 231,
+    "sha256": "be3865f22d9a5ad21e700ca08c42e9ba8b0dac9b1a5e1f0843b292a268aa15a9"
+  },
+  {
+    "file": "backend/src/main/resources/sql/migrate_add_sales_order_fields.sql",
+    "bytes": 575,
+    "sha256": "32a77ef83037da2ed01f01ddd69759639944ec9567bfa36fced96866ea33bdd0"
+  },
+  {
+    "file": "backend/src/main/resources/sql/migrate_add_sales_order_id.sql",
+    "bytes": 112,
+    "sha256": "88a2e8ea255cc7434ca20f6a9fe2e738d0eb3638ab363d0a14aff9e88bd3acbc"
+  },
+  {
+    "file": "backend/src/main/resources/sql/mouse_mes_demo.sql",
+    "bytes": 108904,
+    "sha256": "33038d1017300896f26036cc8588a5703585d2aced94d9642a05425e55adb9eb"
+  },
+  {
+    "file": "backend/src/main/resources/sql/qc_module_migration.sql",
+    "bytes": 3371,
+    "sha256": "da143a1383ee6658ab3d97773ef7c2051aee468ee158cb0b784901e9317c81ed"
+  },
+  {
+    "file": "backend/src/main/resources/sql/recreate_mouse_mes_full.sql",
+    "bytes": 42136,
+    "sha256": "f6750bb5404d8b2df5781aec8cdfb3a10616fd00401e6c6ee701d6c26fb49114"
+  },
+  {
+    "file": "backend/src/main/resources/sql/warehouse_module_migration.sql",
+    "bytes": 3582,
+    "sha256": "7b595da2c7f972af6c75653415c84b36caf56e0bd168ac86319cae067ea08e9b"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/AuthControllerTest.java",
+    "bytes": 4411,
+    "sha256": "0b3f426a2537cf33f1422f84d741a58bfaa05e6d8227fad8385f9abfe97bc0ba"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/BomControllerTest.java",
+    "bytes": 4283,
+    "sha256": "f51929a5e96ea498277ffedcbf75ffa35ffffa50692d80e105bb3c8405bb5f42"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/CustomerControllerTest.java",
+    "bytes": 4654,
+    "sha256": "db861add9fafc9283a69263e3e39cdd07b97799c2d6850a94d576bfc680b3a5f"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/EquipmentControllerTest.java",
+    "bytes": 3427,
+    "sha256": "97c351e17c76f6802fe8ffaf263df602f779827d589dec0e72cb307f7c409dc3"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/FinanceControllerTest.java",
+    "bytes": 6503,
+    "sha256": "1ea0a7be3a2096c25697192fcfae413c99153d26364dd8f11f11c87770db0fd3"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/InventoryControllerTest.java",
+    "bytes": 8031,
+    "sha256": "f141d135efd9045f6fa544405ba7b7690e422c3377465f0aeb8408efd6da405c"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/LocationControllerTest.java",
+    "bytes": 4996,
+    "sha256": "d76e42bb823f3458954dcebf78fa25b51ef4b95eced415b0b713565f2162a9a2"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/MaintenanceControllerTest.java",
+    "bytes": 6545,
+    "sha256": "1220fe7f186873558879dec4960525d810181d8a1ed67e416dfdbec54197d8ff"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/MaterialControllerTest.java",
+    "bytes": 4788,
+    "sha256": "a0228e664f44543f44671e5ff31ee9f0b9d7df04b1ee7641005afa0347e65781"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/OrderControllerTest.java",
+    "bytes": 8141,
+    "sha256": "ad98696f41eec2e438f91e25f4fb5bd1757ef32b4514eb368720a3537354c0c7"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/ProductControllerTest.java",
+    "bytes": 3299,
+    "sha256": "b79298328128053b86f5c4443f628339259cead076414f8a00c8e30724bb6902"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/ProductionDashboardControllerTest.java",
+    "bytes": 3674,
+    "sha256": "77b085006b846604a042cb7ac067328a81a8f536d0eac5d9835728e6636297b8"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/ProductionOrderControllerTest.java",
+    "bytes": 4208,
+    "sha256": "bf05d9465f54aac022a5d9de6fc2bdd15c8333fbca698be12cd08ac452dbd2ae"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/ProductionPlanControllerTest.java",
+    "bytes": 7367,
+    "sha256": "e4b0794f892457458309b1e7eadbc1d68326ec97890643117d28b2fa71f8638b"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/ProductionReportControllerTest.java",
+    "bytes": 5776,
+    "sha256": "700454509fab3311d5ae7c8f34ae795d1d53e7199dd5cdfc544f5c708f416713"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/ProductionTaskControllerTest.java",
+    "bytes": 5890,
+    "sha256": "4a2e4b6f8742d0f8179e6084faba355379b8739b957bffb6df7b22bceb50e96d"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/PurchaseOrderControllerTest.java",
+    "bytes": 8482,
+    "sha256": "0085c4a2225cbe030d7c67c230e256531745965aa7ddb7e6691ce9a2da96bdf7"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/QcInspectionControllerTest.java",
+    "bytes": 4993,
+    "sha256": "63aa83da05779f828f654820d045f0fe44d74b8894986a10de062a7472df8d9a"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/RoleControllerTest.java",
+    "bytes": 1152,
+    "sha256": "1bd2a06e41b064ffce65fbd6451b6e3ffdbc2d92223dae36b2052091bed7773e"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/SalesOrderControllerTest.java",
+    "bytes": 4948,
+    "sha256": "678af8c83d13aec9997511672693ad47b45e2ddf8972d95ea3960f2eb150c98b"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/StockInControllerTest.java",
+    "bytes": 6039,
+    "sha256": "7253bb95ad9ef6cd878f871595357091702ea7c5441b3dd22d2d65f76f93775b"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/StockOutControllerTest.java",
+    "bytes": 9117,
+    "sha256": "ad021c7bccd02fea3793ca3476451ccc9c0b5f606590e90d3029a4d5bd823f91"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/SupplierControllerTest.java",
+    "bytes": 4960,
+    "sha256": "a60ad28210b69366900a6d8a2af0f23d1c226b82ee6b63e4da0d0dadc8578df9"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/UserControllerTest.java",
+    "bytes": 2566,
+    "sha256": "d598f1199e5f28d01cce558e570cc0c0fe5bbdaf0bb4e74749fbadbd251dabb9"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/WarehouseControllerTest.java",
+    "bytes": 3325,
+    "sha256": "ae647dca6416ebcc76d77f90c7a642279d62f373126da6376f0fc2651f8de72d"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/controller/WorkOrderControllerTest.java",
+    "bytes": 8355,
+    "sha256": "fd6a852f23644e866cbcd8c895b4bc03edbb7b8f93e9b2005ab94b94aa0ea511"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/EquipmentServiceTest.java",
+    "bytes": 4527,
+    "sha256": "ddd10afbdacaa8afb64b1daa1af932098ddaef29c58be0a165f4221b633a73a4"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/FinanceServiceTest.java",
+    "bytes": 9540,
+    "sha256": "e9182f80ccb1212fa9455f9f3fab7ae177cad1386f44a0cc336a9deb0a97f2fc"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/InventoryServiceTest.java",
+    "bytes": 9580,
+    "sha256": "5a6043e200c022e50416e057ff46619e003397455ba7057dd1f9a540f4957e76"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/MaintenanceServiceTest.java",
+    "bytes": 7335,
+    "sha256": "5e487dec628c408b1eb85385e1a0cf8d51cbcc99a72dadef631a883b7f365dc2"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/OrderServiceTest.java",
+    "bytes": 5592,
+    "sha256": "4fc79631245dfc68f8eaf90229d0feac49b3775f3c0d8f272a7bfa71868ca610"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/ProductionOrderServiceTest.java",
+    "bytes": 3494,
+    "sha256": "4de79b22374391bb2933c2869143aecf74e759c944f878fcb8691d2c25de86d5"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/ProductionPlanServiceTest.java",
+    "bytes": 5872,
+    "sha256": "d7f2be3cf41240abcfbacdc3c2dae699436149188fd1556677665331eb445277"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/ProductionReportServiceTest.java",
+    "bytes": 4543,
+    "sha256": "6329ac7ca60e561171ad9b2a6f5d8b8203eca0a8f54b741968de7fb7bec3bdeb"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/ProductionTaskServiceTest.java",
+    "bytes": 3493,
+    "sha256": "6e0d7314fd27f187f7c5f6feba57506434c5df5f8a611a6716394135f1b749ef"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/PurchaseOrderServiceTest.java",
+    "bytes": 8949,
+    "sha256": "d89fc5c2e61aeb654bca7c2df7c53865a8c500684bfb7e1ef379ba923af49bd3"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/QcInspectionItemServiceTest.java",
+    "bytes": 5137,
+    "sha256": "56b354d22b5c04b45e5c5ac4d584e99dfd2f4ff255499a497e88782bbbccfa89"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/QcInspectionServiceTest.java",
+    "bytes": 9284,
+    "sha256": "97a123f189011b1a6a1e212968531e90ef65fa525d4703b0e2986bcffa759f10"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/RedisServiceTest.java",
+    "bytes": 2283,
+    "sha256": "8bc10c8b5e8b92b496b526f1a66f90287909050a1daf4bd00b76288e1342bb35"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/StockInServiceTest.java",
+    "bytes": 9544,
+    "sha256": "c11b85880cae1bb61d838b3adfe9a244f7d098086e3737eeff021bac9c5ab715"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/StockOutServiceTest.java",
+    "bytes": 11101,
+    "sha256": "cef5420d77f413480e3d64e40b36c131781e9dc27624957dbf51c3995c312048"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/SupplierServiceTest.java",
+    "bytes": 6337,
+    "sha256": "cbe57f00f450d8e98f79a73c46c6939c3c09960e54fa3df7136482382ea0b34e"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/UserServiceTest.java",
+    "bytes": 1430,
+    "sha256": "c4f6e94d742f6344652a6bd2c2ac3e369561f974d24626086421c0114530dcd1"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/WarehouseServiceTest.java",
+    "bytes": 5092,
+    "sha256": "0651b1fecff3b633b596ec85fa040e7815ffb4dd96529d75d68b892f39f0c351"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/service/WorkOrderServiceTest.java",
+    "bytes": 8134,
+    "sha256": "cc5f59cb881b905306142e1771f8bfe792be0de2a76c0160954dc394bc8ea542"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/unit/HistoricalRegressionUnitTest.java",
+    "bytes": 5116,
+    "sha256": "2a2cd4f94f9841f7e616d3f5d01d264b4c65c72416c9d507b5d01191b4e9d2e8"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/unit/InventoryServiceUnitTest.java",
+    "bytes": 9878,
+    "sha256": "74930c90a12af25448d193fd8e25bdcd729d4267598dd92cfdc638d399e4f1b0"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/unit/MD5UtilUnitTest.java",
+    "bytes": 1935,
+    "sha256": "508ab28258dd5272d03d1510682684eac84cf5a3dd4a9c17a0c54b67392fd68c"
+  },
+  {
+    "file": "backend/src/test/java/com/mouse/mes/unit/UserAvatarUnitTest.java",
+    "bytes": 4048,
+    "sha256": "1fa16dc17f3f43d462c28672b4dfe885327b153a4dbf64383ae69642f070adfe"
+  },
+  {
+    "file": "compose.yaml",
+    "bytes": 1165,
+    "sha256": "e5beeda8da2d09bbb99d882076a869ce3d06ffec4b6d53b35ddaaef7cd037c57"
+  },
+  {
+    "file": "database/01_init.sql",
+    "bytes": 42126,
+    "sha256": "855d4fda146c8ecb268453c36d1c6741813353d970a1ad3c1a6b6803ecdded4c"
+  },
+  {
+    "file": "Dockerfile.backend",
+    "bytes": 280,
+    "sha256": "21985225aaade38554f40801de5200b94c29b68322f2d33d78d134000c8981e7"
+  },
+  {
+    "file": "Dockerfile.frontend",
+    "bytes": 116,
+    "sha256": "2c3f40314073a2415e9002923b0e507ec88c5666b6c85c730e855b48740cb998"
+  },
+  {
+    "file": "frontend/index.html",
+    "bytes": 501,
+    "sha256": "acb57fb6b8bc91c287a4eebfac1fda9aa3dd0da39f4a7f48c7f608c2e68ace1d"
+  },
+  {
+    "file": "frontend/package-lock.json",
+    "bytes": 101065,
+    "sha256": "b1145eef351e7eea648e21f0950e73a6783dd51d9d66c708607f6b2a3b59e93c"
+  },
+  {
+    "file": "frontend/package.json",
+    "bytes": 645,
+    "sha256": "27f4317a8f74c3528fa1db2c5ebbb4514be1ae88b00ce409194059c5c5e4277e"
+  },
+  {
+    "file": "frontend/postcss.config.js",
+    "bytes": 80,
+    "sha256": "190c877db466995bf1482f4a16abd06e04a89ede3119341e2a86ff96e1737b27"
+  },
+  {
+    "file": "frontend/src/api/attendance.ts",
+    "bytes": 1016,
+    "sha256": "5c078818dce47c16eb81e6b6a7a2a336c06f6745e0caa9a4b4b997ebdd9b4a68"
+  },
+  {
+    "file": "frontend/src/api/auth.ts",
+    "bytes": 570,
+    "sha256": "71add20e902f935570058478ea5f80165d667e8d0ffb7ba4d6b67a1ea8310ca1"
+  },
+  {
+    "file": "frontend/src/api/dashboard.ts",
+    "bytes": 2331,
+    "sha256": "89760741f5592a4a1c8511cd7fe0775ff686fac2fa1e03f38404a56841e195f0"
+  },
+  {
+    "file": "frontend/src/api/department.ts",
+    "bytes": 908,
+    "sha256": "0dedb514cedbd77ba274529263d6d5b9492c7224b652ce10e8b0173ebdec8daa"
+  },
+  {
+    "file": "frontend/src/api/mes.ts",
+    "bytes": 18225,
+    "sha256": "3697b04a9e6fc2cf5f0fc74226b3a0150f28e43c3f560ba229b336937db9ef15"
+  },
+  {
+    "file": "frontend/src/api/user.ts",
+    "bytes": 2045,
+    "sha256": "45dd17d0321c61fa402d287c2dc939b42afac77a2cda973fe956e385dd4bbcf1"
+  },
+  {
+    "file": "frontend/src/App.vue",
+    "bytes": 272,
+    "sha256": "3ffff8584bd3f56ed5569ca9a353155b678b9e4df0a133b8976b1c17be2a164a"
+  },
+  {
+    "file": "frontend/src/components/dashboard/ActiveWorkOrderTable.vue",
+    "bytes": 3651,
+    "sha256": "0559f252900ae13ba225caafbabac002576bcaa614b26f71f3c5883d85e6438c"
+  },
+  {
+    "file": "frontend/src/components/dashboard/DashboardHeader.vue",
+    "bytes": 3971,
+    "sha256": "860ffb573791d8583111b985338e7c409d46c51241927e8d18913625d6070b72"
+  },
+  {
+    "file": "frontend/src/components/dashboard/DashboardKpiRow.vue",
+    "bytes": 3034,
+    "sha256": "5ba31d2030fa2e706e704186f896ba8b6265d0949150fbe9d8e1c7083e37b944"
+  },
+  {
+    "file": "frontend/src/components/dashboard/HourlyOutputChart.vue",
+    "bytes": 4245,
+    "sha256": "734da1ea2fdbb41cea675f3aea771fa0fd38802adb1ecd06b51a9ae853b1a706"
+  },
+  {
+    "file": "frontend/src/components/dashboard/InventoryOverview.vue",
+    "bytes": 2033,
+    "sha256": "815777d6e8c1b718d85a932e2ad0231f08aa5a1a66a29a6ddf87c2b2447a2ea5"
+  },
+  {
+    "file": "frontend/src/components/dashboard/MaterialReadiness.vue",
+    "bytes": 2370,
+    "sha256": "8a285908431496b52e8191a3f8534ec368dce47694571cb2d7dd66a81df265d7"
+  },
+  {
+    "file": "frontend/src/components/dashboard/ParticleBackground.vue",
+    "bytes": 2884,
+    "sha256": "7f7b312e42cda12c4ab881c05f668595c06aee86f093e375188cce2338abb1d6"
+  },
+  {
+    "file": "frontend/src/components/dashboard/ParticlePlanet.vue",
+    "bytes": 4046,
+    "sha256": "4921c661bc7eb9665a73a4c411caea619cabaefa2f098bd4439c50aacaf4c703"
+  },
+  {
+    "file": "frontend/src/components/dashboard/ProductionFlow.vue",
+    "bytes": 4586,
+    "sha256": "176adb1d343c3745745d849130876bd61451249f89c190ef5dbb80cc3bd2ee75"
+  },
+  {
+    "file": "frontend/src/components/dashboard/QualityAnalysis.vue",
+    "bytes": 4374,
+    "sha256": "e92104844288c885c43f0ae3d30d384d9b7bf90975f78b2197fdbe320e5e8c37"
+  },
+  {
+    "file": "frontend/src/components/dashboard/RealtimeAlertList.vue",
+    "bytes": 2672,
+    "sha256": "4663340b194dacfb8919492f002afe168a3b491216115342aac9751b3530a9f0"
+  },
+  {
+    "file": "frontend/src/components/dashboard/WorkOrderStatusChart.vue",
+    "bytes": 2823,
+    "sha256": "e7f2576e4cf7527e844c1d1230eaba43b58c1e94e469acbf9a562594a0dde06e"
+  },
+  {
+    "file": "frontend/src/components/Header.vue",
+    "bytes": 4412,
+    "sha256": "086c413c65c730d04e47050114fe9e5f03da16f62303eec96bd31814467bc5ba"
+  },
+  {
+    "file": "frontend/src/components/LoginStarfield.vue",
+    "bytes": 7046,
+    "sha256": "f04df4671b30444a81ba42e16adfae0fb6a807c908e2fe7746b1456a5981b43b"
+  },
+  {
+    "file": "frontend/src/components/MainLayout.vue",
+    "bytes": 331,
+    "sha256": "f288be00b5dbbfc0cfbf6a33570eef66571b825f64be5795d674a39190e6803f"
+  },
+  {
+    "file": "frontend/src/components/Sidebar.vue",
+    "bytes": 10670,
+    "sha256": "a178963df9cd00fffa805b730510995ca9633b715a295cca78f7ebc86590c4aa"
+  },
+  {
+    "file": "frontend/src/main.ts",
+    "bytes": 246,
+    "sha256": "7ec358088cf6bdbea8aa346c8787f0ef450e6832c146b23402993fb412d5c554"
+  },
+  {
+    "file": "frontend/src/mock/dashboard.ts",
+    "bytes": 7817,
+    "sha256": "ede7b8917d03257b27950f194a73a8d478156ea6133393be8f95497ea6825eec"
+  },
+  {
+    "file": "frontend/src/router/index.ts",
+    "bytes": 7880,
+    "sha256": "8134c4b15bb7a5cdabf8183979ad1d2c3ce6718451f43cc6be6290a6cc092da6"
+  },
+  {
+    "file": "frontend/src/stores/auth.ts",
+    "bytes": 4321,
+    "sha256": "8401c81ddb4d3d34646ea3ea3acae159cd4e66df843567d6ae74a545a3d621f0"
+  },
+  {
+    "file": "frontend/src/style.css",
+    "bytes": 4368,
+    "sha256": "e651bce3f2f3a136a5e4ca55a5166c3a623186ca01879d6067332ff3228f5e9a"
+  },
+  {
+    "file": "frontend/src/utils/request.ts",
+    "bytes": 1880,
+    "sha256": "42233a05007a616e01bae06258ec7be1e35c7acb546d84595adeff1e67ba70de"
+  },
+  {
+    "file": "frontend/src/views/Attendance.vue",
+    "bytes": 21823,
+    "sha256": "8b513ad2599525b3045bae49da2ad1d096a66e3dee5e99bdfbb9615450566ea9"
+  },
+  {
+    "file": "frontend/src/views/dashboard/ProductionPanoramaDashboard.vue",
+    "bytes": 8430,
+    "sha256": "f52ef4d1a74aacfab54c12adc5b2cfc6785bed33858bcf44f980019bb7c72c88"
+  },
+  {
+    "file": "frontend/src/views/Dashboard.vue",
+    "bytes": 10068,
+    "sha256": "4fcd93b42ba9333c0b48a74c7c0331db08e50d33f266ef1703870175ace29d84"
+  },
+  {
+    "file": "frontend/src/views/equipment/Equipment.vue",
+    "bytes": 9970,
+    "sha256": "510a3f0683aef2a99cb981e9cad2d1d601ad4e68c11c2e40ee712fbf84e16830"
+  },
+  {
+    "file": "frontend/src/views/equipment/Maintenance.vue",
+    "bytes": 19282,
+    "sha256": "ba9768a3f9729537680c54530de7f8ffb987b8663ec327b273ac22e7a7209350"
+  },
+  {
+    "file": "frontend/src/views/equipment/MaintenanceBills.vue",
+    "bytes": 13830,
+    "sha256": "ae45a7a0461af213067c3e786ff13ca21af3296141b3ebc29afafe86d7c3a924"
+  },
+  {
+    "file": "frontend/src/views/equipment/PeriodicMaintenance.vue",
+    "bytes": 14876,
+    "sha256": "b62770dac820ebc57a1e88794af8c3c6d25b3d57db9a30df7f9b1bf82439ab57"
+  },
+  {
+    "file": "frontend/src/views/equipment/RepairTasks.vue",
+    "bytes": 9672,
+    "sha256": "46a29c6f6df542b72b248b4633f24c4fccd5749632230267b59560601793d443"
+  },
+  {
+    "file": "frontend/src/views/inventory/InventoryIn.vue",
+    "bytes": 9719,
+    "sha256": "bf213b308505b00bf68013dbd5b012f8b3ad56bc5f653c07f1f4b375b8fdcb47"
+  },
+  {
+    "file": "frontend/src/views/inventory/InventoryOut.vue",
+    "bytes": 12241,
+    "sha256": "dfdeba7c8602b28b7a3a4ec71055987ebdde60236ab05c0b926f50f64297d169"
+  },
+  {
+    "file": "frontend/src/views/inventory/Material.vue",
+    "bytes": 9311,
+    "sha256": "092eebf7a05f4cd6f1ff1827c40edb8104692e9426e68ccb835608ee21a1fc9c"
+  },
+  {
+    "file": "frontend/src/views/inventory/MaterialRequest.vue",
+    "bytes": 15671,
+    "sha256": "3c987474c68ec685d590ecf271c64c39dfed9e4e8c53ea37361425d731447c3e"
+  },
+  {
+    "file": "frontend/src/views/inventory/Warehouse.vue",
+    "bytes": 11657,
+    "sha256": "01bc06a876659fd8daeff42b023178238edd0047d07ab03ea326743828493135"
+  },
+  {
+    "file": "frontend/src/views/Login.vue",
+    "bytes": 19042,
+    "sha256": "b279927b164f29b0233f05b35a8d84c9a39b2b986a3c234f8cfa8127b76529fd"
+  },
+  {
+    "file": "frontend/src/views/Notifications.vue",
+    "bytes": 5076,
+    "sha256": "8fade07d71f184f41b77abd6972689a4211850369947281ddfc5dce2174c6684"
+  },
+  {
+    "file": "frontend/src/views/order/CustomerOrder.vue",
+    "bytes": 15990,
+    "sha256": "f8727e80d54528c0aa19eed54130149e1d5ac1a38bf3938ffef88c792406ecad"
+  },
+  {
+    "file": "frontend/src/views/order/OrderList.vue",
+    "bytes": 26717,
+    "sha256": "930ca8767efc9cdc0cb846e242c473623b4c35e87134d8a9a4c6ac7d89c89eb4"
+  },
+  {
+    "file": "frontend/src/views/production/EquipmentStatus.vue",
+    "bytes": 12819,
+    "sha256": "0f1cd81d30b7f08a22910e3fea3768406e4edec3591c5902a2da1340941023e9"
+  },
+  {
+    "file": "frontend/src/views/production/ProductionPlan.vue",
+    "bytes": 25209,
+    "sha256": "a1ad99b0454d7ce037128d5be05f3917b4c2c48f2f03e971c7afc8c93ff6da7d"
+  },
+  {
+    "file": "frontend/src/views/production/ProductionReport.vue",
+    "bytes": 21380,
+    "sha256": "d8cd8fc1ae120f71b092e4084f782cafd6ae99152f03a554560d3ed5dfb9f3e1"
+  },
+  {
+    "file": "frontend/src/views/production/ProductionTask.vue",
+    "bytes": 25359,
+    "sha256": "5fcfafec8077f6906e225620a50cf4e7c4f6c349f891df0bd77e8548f86b9318"
+  },
+  {
+    "file": "frontend/src/views/purchase/PurchaseOrder.vue",
+    "bytes": 33733,
+    "sha256": "e85e8b13e9cf97a748bf74b83eec9ed4b38ef20baea6486db53ac9fa9119f53d"
+  },
+  {
+    "file": "frontend/src/views/purchase/PurchaseRequest.vue",
+    "bytes": 13115,
+    "sha256": "f82f8f3468b807be4e5bb190fdd1c1b73086912838c075663d1e51ac386a4af8"
+  },
+  {
+    "file": "frontend/src/views/purchase/Supplier.vue",
+    "bytes": 9446,
+    "sha256": "e11a89353de8ffd694b2b0c041ffccfb2e3e0c205ed95e405ef755df7242a243"
+  },
+  {
+    "file": "frontend/src/views/quality/QualityCheck.vue",
+    "bytes": 19160,
+    "sha256": "0bc9a4006d5bcb7da009f959917ddd17bb4a2e9e4c62d89e5f559795504422dd"
+  },
+  {
+    "file": "frontend/src/views/quality/QualityStandard.vue",
+    "bytes": 11003,
+    "sha256": "beee92a946ae51ce724ce5d07d677f20d035cca96a8f9299a5859c5dcf7ebcb7"
+  },
+  {
+    "file": "frontend/src/views/quality/QualityTask.vue",
+    "bytes": 10264,
+    "sha256": "9105825667606cbcbf5aaccc05cecd255ca583f194b06d0fadf32f1328dc8c25"
+  },
+  {
+    "file": "frontend/src/views/roles/AdminDashboard.vue",
+    "bytes": 27026,
+    "sha256": "7b21a29753d502ecd0ee8c44271529a9c3da1ff7de2096b674a160c85b9e1d71"
+  },
+  {
+    "file": "frontend/src/views/roles/CFODashboard.vue",
+    "bytes": 15546,
+    "sha256": "c86cd5ec2fe82ab6acf3cd042b6e6707def953f8f7e9fc814bd98d8228db9344"
+  },
+  {
+    "file": "frontend/src/views/roles/EquipmentManagerDashboard.vue",
+    "bytes": 11053,
+    "sha256": "aba3ce0092d2dba4fdfbb035904a2766c87ee293a1efcda7dc03bbed0e2d7be5"
+  },
+  {
+    "file": "frontend/src/views/roles/ProdManagerDashboard.vue",
+    "bytes": 6599,
+    "sha256": "2364c25fc02f85882e77ace676ce511465c0cbcb6cd3bd23b04b047ed00792e3"
+  },
+  {
+    "file": "frontend/src/views/roles/PurchaseManagerDashboard.vue",
+    "bytes": 6098,
+    "sha256": "a8c20badbc4ec9b6226d5bc9d46364e74ab8bfcf0355995e98c9ef4061b0060a"
+  },
+  {
+    "file": "frontend/src/views/roles/QCManagerDashboard.vue",
+    "bytes": 9067,
+    "sha256": "2136ae56d5b35ccffcf7eb1953c21830d7b22042627e204c6f9cabaabf7f5f1a"
+  },
+  {
+    "file": "frontend/src/views/roles/SalesManagerDashboard.vue",
+    "bytes": 6659,
+    "sha256": "ba2faa62b5e452b8edf3fd3022d4f7c97085baefd20acd331f137df1e8b793b4"
+  },
+  {
+    "file": "frontend/src/views/roles/WarehouseManagerDashboard.vue",
+    "bytes": 10426,
+    "sha256": "b3069db76cb63f0abcd746d8a594c672cd24006f1182389fc704119469397344"
+  },
+  {
+    "file": "frontend/src/views/roles/WorkerDashboard.vue",
+    "bytes": 18314,
+    "sha256": "36f08f53c7664589f8ed9aa349cbbf85e18df266b6bc21834b5e9aa9b50aac83"
+  },
+  {
+    "file": "frontend/src/views/roles/WorkshopManagerDashboard.vue",
+    "bytes": 16524,
+    "sha256": "9465e103bbe79721a20a047a861a6ecd0fb5f8f18b6bd77182a78871268703ca"
+  },
+  {
+    "file": "frontend/src/views/system/Department.vue",
+    "bytes": 13857,
+    "sha256": "52904c6c4dec3f3636f5b699182c4d696eeb95b69b7e85395baedd4365d56f15"
+  },
+  {
+    "file": "frontend/src/views/system/Logs.vue",
+    "bytes": 2355,
+    "sha256": "f9f0a06dcfd4e89c98e5d5779331a4b974661a14813549ef0b0447dee43f440f"
+  },
+  {
+    "file": "frontend/src/views/system/Role.vue",
+    "bytes": 2917,
+    "sha256": "8f4768c8a0106a70f5fc8166afac6b00a81dea37486f62aa14efda613f461789"
+  },
+  {
+    "file": "frontend/src/views/system/User.vue",
+    "bytes": 23093,
+    "sha256": "12e73bdef8a0aef75995b9967f69664b0743ff28f41779216b4ecc2efa90b8e0"
+  },
+  {
+    "file": "frontend/src/views/UserProfile.vue",
+    "bytes": 26005,
+    "sha256": "d260993df4a7eda1e28e374f9c7d5bbc0510a71fc03e038971fc3dceb6d3f7cc"
+  },
+  {
+    "file": "frontend/tailwind.config.js",
+    "bytes": 3816,
+    "sha256": "8bbedf3007f6f13d511256c82538ff17485ba684e7b8a2e9cbb6de74728b9728"
+  },
+  {
+    "file": "frontend/tsconfig.json",
+    "bytes": 691,
+    "sha256": "9cd2fb7437bf0f00688efb32dd8328be955752cdf8a811607d92b676579da064"
+  },
+  {
+    "file": "frontend/tsconfig.node.json",
+    "bytes": 223,
+    "sha256": "6ec602b8aa146888c76f0b41ca3515f91f95919f6e6417a4670decaba8fcb982"
+  },
+  {
+    "file": "frontend/vite.config.ts",
+    "bytes": 405,
+    "sha256": "5aa28a41ac8f93da4c8386a6ba83c220cd391b5822ffed6b7c093fc9d0ee3208"
+  },
+  {
+    "file": "nginx.conf",
+    "bytes": 190,
+    "sha256": "d5913540cf22822a89e521a73003a1b785dac31757d65ad85a138bef4d1fbf86"
+  },
+  {
+    "file": "runtime/application-team.yml",
+    "bytes": 559,
+    "sha256": "07c36389f2bd95e2cea22e7169e31922559a833a88b0fe9b2a8f0f1f98b5a985"
+  },
+  {
+    "file": "runtime/mouse-mes-1.0.0.jar",
+    "bytes": 37462321,
+    "sha256": "15f5f9568c38889570416a2b1c17afa6f385201fa2ba6c0858bc9a84b12f62cc"
+  },
+  {
+    "file": "runtime/serve.mjs",
+    "bytes": 1588,
+    "sha256": "114408448eb56277cec44e8ee290a52d9808c97255fe70593fe4f3d58e2a7189"
+  },
+  {
+    "file": "runtime/web/assets/_plugin-vue_export-helper-DlAUqK2U.js",
+    "bytes": 91,
+    "sha256": "cb85b0f263dbe24e857338301c0627076592e9f1f1a5662929f86d2c126444aa"
+  },
+  {
+    "file": "runtime/web/assets/arrow-up-right-D3cnacQ6.js",
+    "bytes": 340,
+    "sha256": "0265a5768304202cde8baf21b9b1e5f6aa924b5ec7f3ddfa61fa21c12abfb35a"
+  },
+  {
+    "file": "runtime/web/assets/attendance-BMp_Pumg.js",
+    "bytes": 293,
+    "sha256": "d29c14b562f563bcd5cdc277e0c9a2025e6ba4d94f998024d1b04fc83c631438"
+  },
+  {
+    "file": "runtime/web/assets/Attendance-CpYxvqkO.js",
+    "bytes": 15137,
+    "sha256": "056680dfae2ce5ed6f9cef87574fccaae730e8a71c1380049323a370ec493725"
+  },
+  {
+    "file": "runtime/web/assets/building-2-C4rnlYam.js",
+    "bytes": 613,
+    "sha256": "a2f3651b9f9fa9bd0e92b3db24d5f5a90435992de0f48427709a9a23d62c1889"
+  },
+  {
+    "file": "runtime/web/assets/CFODashboard-BK7qNCQ3.js",
+    "bytes": 13294,
+    "sha256": "6ce9bf76e78325f5b402b8e1dbf2117be1dc10dd9a3483e2cf5272eb467950c6"
+  },
+  {
+    "file": "runtime/web/assets/circle-alert-0VxX-NQK.js",
+    "bytes": 424,
+    "sha256": "1c192bf8c7ad1a8c13d9806668d4ea2685388a8dc7e7b754b9245d374476ca58"
+  },
+  {
+    "file": "runtime/web/assets/clock-CZNDL9kx.js",
+    "bytes": 353,
+    "sha256": "67f52adedd1c577dfa07babfcf5e7a78ab250f81788cfecefe775cf2fe0cc99e"
+  },
+  {
+    "file": "runtime/web/assets/CustomerOrder-BV-Eix_i.js",
+    "bytes": 12420,
+    "sha256": "d503c9021ca85c7d3f870bbf50b4bd28316644b21944948518873376513be053"
+  },
+  {
+    "file": "runtime/web/assets/Dashboard-BJWVHRxi.js",
+    "bytes": 7902,
+    "sha256": "4e321c6ef4bac80c0e375a7fc8eca67ed2167a1b2423b3390d5a41c8aa8afba2"
+  },
+  {
+    "file": "runtime/web/assets/Department-CAB3Ontj.js",
+    "bytes": 10101,
+    "sha256": "0b8c35e075628c8a6c79c5505f64f0ab01de144ced0ba6ccf9aa91b96304e0b8"
+  },
+  {
+    "file": "runtime/web/assets/department-CZJOeHvL.js",
+    "bytes": 295,
+    "sha256": "4a9af2c3f7862c839d9e9c487e5e5ee4e26fe56c2a88eb9ca9b65f7046221a63"
+  },
+  {
+    "file": "runtime/web/assets/Equipment-BpNvPesu.js",
+    "bytes": 8863,
+    "sha256": "d8b764b75d6692475564ddff43d93fef52922ce38365c146bf4c9a75a522478c"
+  },
+  {
+    "file": "runtime/web/assets/EquipmentManagerDashboard-qN-QJoXw.js",
+    "bytes": 9338,
+    "sha256": "7b2cd106a095159d7eecf022bf59b78f7236747c434b990f9e6b7f8694d3dec5"
+  },
+  {
+    "file": "runtime/web/assets/EquipmentStatus-Dq3P2spk.js",
+    "bytes": 9693,
+    "sha256": "5e2f62d70eaba2b7bf98d011708dd9e31c697f243b32752bb7b272a843dfe1ad"
+  },
+  {
+    "file": "runtime/web/assets/eye-CsxB8Rva.js",
+    "bytes": 369,
+    "sha256": "f1d204d1b450fda20823244637903e92c72d76d9341569b6d7ca4fcd486905ad"
+  },
+  {
+    "file": "runtime/web/assets/index-C4cIixdw.css",
+    "bytes": 53670,
+    "sha256": "f563b926e544efef90bc8087aae0b9b75f11c0650ba742b9f56cf70ffd01657d"
+  },
+  {
+    "file": "runtime/web/assets/index-C4yx4Ab_.js",
+    "bytes": 158411,
+    "sha256": "6cff13e60daec994da5082a85a6f1ed2490548033fb02e29165d3547082738a8"
+  },
+  {
+    "file": "runtime/web/assets/InventoryIn-B5cmfigl.js",
+    "bytes": 8784,
+    "sha256": "ad806343bc5a3ff424ead11c45b3914b9f45d471cde4cc1defb6cfa78cd31003"
+  },
+  {
+    "file": "runtime/web/assets/InventoryOut-COKbyMB6.js",
+    "bytes": 10817,
+    "sha256": "e95429fecc9be8467d50af06558844d13b83d4b0683509b0cd2bc7385dc78a8d"
+  },
+  {
+    "file": "runtime/web/assets/lock-Cz3jN21u.js",
+    "bytes": 906,
+    "sha256": "cfec51387bba55bc066e8983dc871aedd35a2f4fe749ebcf684d1bf269f6e201"
+  },
+  {
+    "file": "runtime/web/assets/Login-DCU5yvrL.js",
+    "bytes": 8398,
+    "sha256": "294f46ee9034a1d7f35239083046244fb79448758afabc524d9bb95f0a1837e5"
+  },
+  {
+    "file": "runtime/web/assets/Login-Lb8Pbp4v.css",
+    "bytes": 6986,
+    "sha256": "0e10afc461646cd6069625539d3180c463807007cedee53c0a74f255816ff769"
+  },
+  {
+    "file": "runtime/web/assets/Logs-gOhB6-8t.js",
+    "bytes": 3054,
+    "sha256": "f638f5a9ae5ffdf0458c6638772cce99906b53b57877fb6baef3735c7289da9b"
+  },
+  {
+    "file": "runtime/web/assets/MainLayout.vue_vue_type_script_setup_true_lang-CBYF9i59.js",
+    "bytes": 17218,
+    "sha256": "a7c3ba387114cce986d284b333eea9e2dc2352f4350a88d0202cb779c9abddec"
+  },
+  {
+    "file": "runtime/web/assets/Maintenance-DFN-Pqxh.js",
+    "bytes": 14896,
+    "sha256": "972db21a8db91ebaf1a241ebafe76f7d6bc6d4d812ece901ac739eae86ef3187"
+  },
+  {
+    "file": "runtime/web/assets/MaintenanceBills-B1ZviQnS.js",
+    "bytes": 10574,
+    "sha256": "c3e8c1cee00074397662a1ceb77eaeb2b887bb2414d4ae0be77ac18481e54327"
+  },
+  {
+    "file": "runtime/web/assets/Material-H8mKplOW.js",
+    "bytes": 8313,
+    "sha256": "2b4e8a0b2ebe66eafbd073caa201c351078e9b6ef48b3f4fd0979c9a88204219"
+  },
+  {
+    "file": "runtime/web/assets/MaterialRequest-Bd4vQQVp.js",
+    "bytes": 12088,
+    "sha256": "ece64e03f8f63df4fbd786e25ee5244c4bee9200dddfea59c6568a5451cf8c1b"
+  },
+  {
+    "file": "runtime/web/assets/mes-CKTEo0IN.js",
+    "bytes": 5165,
+    "sha256": "94342bbb0c2faf4988e6a0c30f85ccc550ee069bebecf29bd3e6d065846883d2"
+  },
+  {
+    "file": "runtime/web/assets/Notifications-CR04fBzW.js",
+    "bytes": 4955,
+    "sha256": "a1a8ebf90d57d80cb758281368136c4931eaf528df368ab8db1b20276fe25a30"
+  },
+  {
+    "file": "runtime/web/assets/OrderList-jU3xW7md.js",
+    "bytes": 19426,
+    "sha256": "4fb18655e8fddb17849bfcfc01b47579fda2ee2a7e0586c69c53b0ffa44fd1c1"
+  },
+  {
+    "file": "runtime/web/assets/pen-line-CijG7jld.js",
+    "bytes": 367,
+    "sha256": "fffc5452873dc1d8eb2a37536960e14d227cf27d7db4649feab3ff8df8c3f156"
+  },
+  {
+    "file": "runtime/web/assets/PeriodicMaintenance-B5r0N-gX.js",
+    "bytes": 11978,
+    "sha256": "82a18f920d8de4e3aeb458c02d6f17dcc443fa4a13ac4fe9610dbedb395d89d7"
+  },
+  {
+    "file": "runtime/web/assets/play-MEf3wvDf.js",
+    "bytes": 861,
+    "sha256": "fd158bc141a9406c9c14f4421a364162e7d91d1b56197e3abe75d4f7426948ca"
+  },
+  {
+    "file": "runtime/web/assets/plus-T9w_i5Pf.js",
+    "bytes": 328,
+    "sha256": "d491e62dbf542dfd93b54ed1ad175498d5b130c4732e8fb009f4f8f740b0651b"
+  },
+  {
+    "file": "runtime/web/assets/ProdManagerDashboard-kmLIuyCA.js",
+    "bytes": 5296,
+    "sha256": "9a2debf2a1c202afe77fca3170ce2a5f2fdf3751f1cb83b152c0da971d6f0576"
+  },
+  {
+    "file": "runtime/web/assets/ProductionPanoramaDashboard-BAQVKwvk.js",
+    "bytes": 22389,
+    "sha256": "88e96c42a729087f0fe3fd68ed1945cd5e6fe128330a2126dd2045cba69cc44f"
+  },
+  {
+    "file": "runtime/web/assets/ProductionPanoramaDashboard-DWUm0ACA.css",
+    "bytes": 16498,
+    "sha256": "1a39380ca2b455e76e0e06bc70204dd0429ed119cb80bf21aff0b9d05a45dc6f"
+  },
+  {
+    "file": "runtime/web/assets/ProductionPlan-DgwAu1zy.js",
+    "bytes": 16795,
+    "sha256": "8ae4e933ad42406a5ac7ff421ce1fa0021f0edc3bb086e3a94f9048a52dc6fac"
+  },
+  {
+    "file": "runtime/web/assets/ProductionReport-UB7dQ652.js",
+    "bytes": 15487,
+    "sha256": "2bed7621b8b6570869443c3363efd4f8264ee55ba4a790a2ef42b79205ccc680"
+  },
+  {
+    "file": "runtime/web/assets/ProductionTask-DUtcADzb.js",
+    "bytes": 20964,
+    "sha256": "2aedc50b7e2015dc9e07a44fa0f7edd27a870df285f703ef3792cbf1577cc956"
+  },
+  {
+    "file": "runtime/web/assets/PurchaseManagerDashboard-CU32EPb9.js",
+    "bytes": 4956,
+    "sha256": "edb718c3e586c3d7fafe32e7df5b60eba6c0c3feca14eaa50d6b1faaa30cca98"
+  },
+  {
+    "file": "runtime/web/assets/PurchaseOrder-CknrPBhK.js",
+    "bytes": 24409,
+    "sha256": "4006f58cd433bcef8ac38e7bc04432cf8dce9cf7b8e992c702a2fa48ec5d9f4c"
+  },
+  {
+    "file": "runtime/web/assets/PurchaseRequest-DE9ZbtN9.js",
+    "bytes": 10337,
+    "sha256": "58225c34a5f6d990398fd4b518a2756cbabdcc69039ef4fedf58b10b89b0db4b"
+  },
+  {
+    "file": "runtime/web/assets/QCManagerDashboard-BwKMVugD.js",
+    "bytes": 6756,
+    "sha256": "fb8fd1ac7d6691d7aa01a7dc3544bc39ffcf9e8ff87d9bc3b797ac2e795396bd"
+  },
+  {
+    "file": "runtime/web/assets/QualityCheck-CEp_JjFU.js",
+    "bytes": 15302,
+    "sha256": "8d569de968fa1a79ada5572adcad666562af4f4fadcde60f40d6ed4f27eba255"
+  },
+  {
+    "file": "runtime/web/assets/QualityStandard-t4lcDWxU.js",
+    "bytes": 8375,
+    "sha256": "1184d1d9e1bd7b2d5ff4eee24bc5a304d16ada03ad10827533eaac43a581afd9"
+  },
+  {
+    "file": "runtime/web/assets/QualityTask-Bv-r7e1u.js",
+    "bytes": 7672,
+    "sha256": "5f80e3680c598cb6a61d0cd95b38f7fedb403bb6e39f9b1cfa0116e98fbf7de8"
+  },
+  {
+    "file": "runtime/web/assets/refresh-cw-D7urrMV3.js",
+    "bytes": 495,
+    "sha256": "beb54964cc5e5c759624680f0333ecc0fdd0a7cdbd24272aa1fc39622cd4eda0"
+  },
+  {
+    "file": "runtime/web/assets/RepairTasks-D1niJ0KB.js",
+    "bytes": 7840,
+    "sha256": "48fdb6fdb7e816db95ff993fafaf130a112b7def3793db97ea5cad84ab364a85"
+  },
+  {
+    "file": "runtime/web/assets/Role-C5G7vPRU.js",
+    "bytes": 2532,
+    "sha256": "2a9b322a230c3bfe987d914d346a3016691577c48c24506fd861820e39519f5b"
+  },
+  {
+    "file": "runtime/web/assets/SalesManagerDashboard-CL10RVi9.js",
+    "bytes": 5486,
+    "sha256": "3e83676b161072f73bad01035d292cc22271f359fa52427b1bbd7582557ea52e"
+  },
+  {
+    "file": "runtime/web/assets/search-YDGZRuV7.js",
+    "bytes": 342,
+    "sha256": "e9b309490374402f0781c9229144f6a66e905abdd9d871580b0484a575800ee9"
+  },
+  {
+    "file": "runtime/web/assets/send-C6IOsjYf.js",
+    "bytes": 342,
+    "sha256": "b268b8bfd2b9fbc6ba61382e25f9ef951f94bd8eea49bf9cc7169bc7473c034f"
+  },
+  {
+    "file": "runtime/web/assets/square-pen-TQ8560wr.js",
+    "bytes": 426,
+    "sha256": "4dcc76cb31979eefbd18417fab5ce6a736bf93d5f14c17c233cf4a046a3539c1"
+  },
+  {
+    "file": "runtime/web/assets/Supplier-G1o2dt_y.js",
+    "bytes": 8109,
+    "sha256": "220852d84a974b569bbfc9b514c5d59be85e4218548cb14202e2a150a297ef3e"
+  },
+  {
+    "file": "runtime/web/assets/trash-2-DljAXhhn.js",
+    "bytes": 532,
+    "sha256": "bf3f846d9771fd6bca8f18e31419ed1e6d10ee16e51806ad446a267c223f65bd"
+  },
+  {
+    "file": "runtime/web/assets/triangle-alert-Nx-ZbyhK.js",
+    "bytes": 439,
+    "sha256": "d8c33127cef5822274cde48a736ce589b8a3add8c4f1b89e078b349cfcf73f8d"
+  },
+  {
+    "file": "runtime/web/assets/user-BRRY54Sy.js",
+    "bytes": 1986,
+    "sha256": "baafb88bc33f29b640b125270e518aa13dfe3fc991d15dd2576d21a64b588893"
+  },
+  {
+    "file": "runtime/web/assets/user-CDyu_a-4.js",
+    "bytes": 461,
+    "sha256": "c57b81036f304eb43bb4b583f6d35b07f62ad3638c7f996ac5cf8436db3802da"
+  },
+  {
+    "file": "runtime/web/assets/User-UQ0Yh7RF.js",
+    "bytes": 17328,
+    "sha256": "8d0566892cf78685ec106a99294a60cb5c63d380f4fca9c9f5e4298a6b5dcadd"
+  },
+  {
+    "file": "runtime/web/assets/UserProfile-CWO-AvV9.js",
+    "bytes": 21575,
+    "sha256": "21b6ede223f24be5253faf6b278d36ec191759486e7ea512b7c18044b5035f44"
+  },
+  {
+    "file": "runtime/web/assets/Warehouse-m9_O0BL9.js",
+    "bytes": 9467,
+    "sha256": "f0d3f924f3a7a666980f05040d678b58f9b2f071bb66787190a9eb2da24e30a7"
+  },
+  {
+    "file": "runtime/web/assets/WarehouseManagerDashboard-C0g-enJ2.js",
+    "bytes": 8393,
+    "sha256": "df52fa9ebba9202056c6d93ccdfad583ad7eb8beb3a5fed31ee16646e9c1ecd5"
+  },
+  {
+    "file": "runtime/web/assets/WorkerDashboard-BdW0KXFq.js",
+    "bytes": 14564,
+    "sha256": "a5f213d9f957ab7f79483c353099d8c98135536ca93b865043aa01ed7214a2fa"
+  },
+  {
+    "file": "runtime/web/assets/WorkshopManagerDashboard-ClYZ8IPR.js",
+    "bytes": 13294,
+    "sha256": "5af360c14def8e3ac321a7ad26639ed9116ad26376d5ec9118e267fca03f550e"
+  },
+  {
+    "file": "runtime/web/assets/x-CLOH6A-z.js",
+    "bytes": 324,
+    "sha256": "fa415444ee29c0c5c751cdd1fc062fdf7e9a7c062b199ffaea937f33b28ebca8"
+  },
+  {
+    "file": "runtime/web/index.html",
+    "bytes": 600,
+    "sha256": "81cf050bfad2fa3f02598ff3ebd5505559d3b1e0832588b09a10a0548f23f84b"
+  },
+  {
+    "file": "停止项目.ps1",
+    "bytes": 548,
+    "sha256": "fac420d591071032e74857ed460f5ff9b7714a137a3bcbfdc0066b5af4b068b4"
+  },
+  {
+    "file": "先读我_运行说明.txt",
+    "bytes": 3809,
+    "sha256": "663bed8fdfc5ce6d92f093df28e2675281cb46bb04660d5d59090322564c381c"
+  },
+  {
+    "file": "启动项目.ps1",
+    "bytes": 1466,
+    "sha256": "689d6e0dc4e124333b5612297305f0fc39549862a655e7b71db2f4c9aa3e85cb"
+  },
+  {
+    "file": "打包验证说明.txt",
+    "bytes": 633,
+    "sha256": "356fafb377f3650152739a5357aad113ea4da8f727026eddcc7418e2fa7e5ee3"
+  },
+  {
+    "file": "本机配置.example.ps1",
+    "bytes": 276,
+    "sha256": "517e29523ac2d4886ccc71d8edb9d806fe314114e1c043d239556545d97d44af"
+  }
+]
